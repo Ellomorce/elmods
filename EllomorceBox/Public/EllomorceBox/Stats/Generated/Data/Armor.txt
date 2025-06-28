@@ -1,0 +1,72 @@
+new entry "TheName_of_youritem"                  ------- This will be the same, exactly, as the "Name" and "Stats" in your merged.lsx  It is good to put a prefix in front, your choice.  My New Mod - M N M... MNM_Chain_Shirt as an example.
+type "Armor"                                     -------- obvious
+using "ARM_ChainShirt_Body_1"                    -------- what is it?  What model does it's parent use?
+data "RootTemplate" "MapKey UUID in merged.lsx"  -------- THIS is EXACTLY the same code as the "MapKey" in the merged.lsx.  This is generated using the Multi Tool, Generate button.  Make sure the "Handle" is not checked
+data "ArmorClass" "15"                           -------- self explanatory
+data "Armor Class Ability" "Dexterity"           -------- line doesn't have to be here but sure, why not, tell your armor to use Intelligence as your AC modifier if you want to.
+data "ValueOverride" "7"                         -------- How much does it cost?
+data "Weight" "0.01"                             --------- How much does it weigh?
+data "Rarity" "Legendary"                        -------- Uncommon, Rare, VeryRare, Legendary (doesn't do anything other than change the color of the icon)
+data "Boosts" "CriticalHit(AttackTarget,Success,Never)" -------- What special boosts does it give you?
+data "PassivesOnEquip" "MAG_PHB_ElvenChain_Armor_Passive;MAG_PHB_ElvenChain_AddedEffect_Armor_Passive;MAG_FlexibleArmor_Defense_Passive;MAG_ExoticMaterial_MediumArmor_Passive;ARM_Ambusher_2_Passive;MAG_Shadow_StealthBonusWhileObscured_Armor_Passive;MAG_Umberlee_FireColdResistance_Passive;MAG_SpellResistance_Passive"  ----What passive abilities does it have ust by equipping it???
+data "StatusOnEquip" "MAG_SHADOW_OBSCURITY_STEALTH_OWNER_TECHNICAL"  --------  Any special status to the player it gives just by equiping???
+data "Ability Modifier Cap" ""                   ------- You know how Medium Armor restricts Dex Cap to +2???  Put this in with nothing between the quotations and the cap goes away.  Or maybe you want cap at +6 or +4 or whatever.
+data "Proficiency Group" ""                      --------If you want to restrict it to a specific armor proficient group, type that here.  Leave it blank if you want anyone to use it
+
+//amulet "589981db-3c73-421f-9c2f-afca259e499d"
+//armor "a57433fc-8be8-4efb-ac6b-a625b3bdcd18"
+//hand "f46eb019-edd0-4216-99df-9dae89a83ce7"
+//head "f46eb019-edd0-4216-99df-9dae89a83ce7"
+
+
+// Dread Pack -------------------------------
+
+new entry "EL_Dread_Gloves"
+type "Armor"
+using "ARM_Gloves_Leather"
+data "RootTemplate" "62a3839f-4115-4b12-9c77-928c25155ee4"
+data "ValueOverride" "500"
+data "Weight" "0.5"
+data "ValueScale" "1"
+data "ValueRounding" "1"
+data "ValueLevel" "6"
+data "ValueUUID" "f46eb019-edd0-4216-99df-9dae89a83ce7"
+data "Rarity" "Legendary"
+data "Boosts" ""
+data "PassivesOnEquip" "MAG_Dread_Cantrips_Passive;MAG_Necrotic_Bonus_Passive;MAG_Necrotic_GainArcaneChargeOnDamaged_Passive;MAG_Ignore_Necrotic_Resistance"
+
+new entry "EL_Dread_Robe"
+type "Armor"
+using "_Armor_Magic_Robe"
+data "RootTemplate" "a495f39e-d80a-4c97-b4d4-1538ae5b6bc0"
+data "ArmorClass" "13"
+data "ValueOverride" "1000"
+data "Weight" "4"
+data "ValueScale" "1"
+data "ValueRounding" "1"
+data "ValueLevel" "6"
+data "ValueUUID" "a57433fc-8be8-4efb-ac6b-a625b3bdcd18"
+data "Rarity" "Legendary"
+data "Boosts" "UnlockSpell(Shout_MAG_EL_Caster_Acbuff)"
+data "PassivesOnEquip" "MAG_Dread_Immunities"
+data "StatusOnEquip" "MAG_BLADE_WARD;MAG_EL_CASTER_ACBUFF_TECHNICAL;MAG_DREAD_AURA"
+
+new entry "EL_Dread_Boot"
+type "Armor"
+using "ARM_Boots_Leather"
+data "RootTemplate" "51da9f5e-d1e1-43bc-b3d4-883e1aafc18d"
+data "ValueOverride" "500"
+data "Weight" "2.5"
+data "ValueScale" "1"
+data "ValueRounding" "1"
+data "ValueLevel" "6"
+data "ValueUUID" "f46eb019-edd0-4216-99df-9dae89a83ce7"
+data "Rarity" "Legendary"
+data "Boosts" "UnlockSpell(Target_WYR_Circus_TeleportBoots_MistyStep)"
+data "PassivesOnEquip" ""MAG_Infernal_Metal_Boots_AntiDisplacement_Passive";MAG_Grave_walking_resistance"
+data "StatusOnEquip" "MAG_GRAVE_WALKING_PROTECTION"
+
+
+
+
+

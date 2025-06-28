@@ -1,0 +1,85 @@
+new treasuretable "TT_EW_Daggers_Crate"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Common",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_UnCommon",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_Alchemist",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_Smuggler",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_Mercy",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_Trickster",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_Spellweaver",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_EW_Dagger_Bhaal",1,0,0,0,0,0,0,0
+
+new treasuretable "DEN_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Common",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentarimTrader_Common"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_UnCommon",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_UnCommon",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_BugBearvendor_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Rare",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_HarperQuarterMaster"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Rare",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_SteepsTrader_Weapons"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Rare",1,0,0,0,0,0,0,0
+
+new treasuretable "FOR_BlacksmithsCellar_FineWeapon"
+CanMerge 1
+new subtable "0,9;1,1"
+object category "I_EW_Dagger_VeryRare",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_Zhentarim_LockedRoom_Treasure"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Smuggler",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_InfernalTrader_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Trickster",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_MycoVillage_AlchemistDwarf_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Alchemist",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_CaveExploration_Chest"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Mercy",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Circus_Ringmaster_Chest"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Spellweaver",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Sarevok_Treasure"
+CanMerge 1
+new subtable "1,1"
+object category "I_EW_Dagger_Bhaal",1,0,0,0,0,0,0,0

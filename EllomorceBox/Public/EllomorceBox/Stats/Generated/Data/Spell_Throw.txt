@@ -1,0 +1,22 @@
+new entry "VV_Throw_FlyingDagger"
+type "SpellData"
+data "SpellType" "Throw"
+using "Throw_Throw"
+data "Cooldown" "OncePerTurn"
+data "SpellProperties" "GROUND:DealDamage(1,Piercing);TARGET:IF(HasStatus('MAG_PROJECTILE_SHOES_TECHNICAL', context.HitDescription.ThrownObject)):DealDamage(2d4, Psychic,Magical,,0,,true);TARGET:IF(HasStatus('MAG_THE_THORNS_WEAPON_BOND', context.HitDescription.ThrownObject)):ApplyStatus(MAG_THE_THORNS_AOE_DAMAGE_TECHNICAL, 100, 0);TARGET:IF(HasStatus('MAG_FIRE_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Fire,Magical,,0,,true);TARGET:IF(HasStatus('MAG_COLD_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Cold,Magical,,0,,true);TARGET:IF(HasStatus('MAG_LIGHTNING_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Lightning,Magical,,0,,true);TARGET:IF(HasStatus('MAG_THUNDER_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Thunder,Magical,,0,,true);TARGET:IF(HasStatus('MAG_ACID_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Acid,Magical,,0,,true);TARGET:IF(HasStatus('MAG_POISON_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Poison,Magical,,0,,true);TARGET:IF(HasStatus('MAG_NECROTIC_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Necrotic,Magical,,0,,true);TARGET:IF(HasStatus('MAG_FORCE_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Force,Magical,,0,,true);TARGET:IF(HasStatus('MAG_PSYCHIC_THROW', context.HitDescription.ThrownObject)):DealDamage(1d4, Psychic,Magical,,0,,true);TARGET:IF((HasStatus('BURNING', context.HitDescription.ThrownObject) or HasStatus('FLAMING_SPHERE_AURA', context.HitDescription.ThrownObject))):ApplyStatus(SELF, BURNING,100,1)"
+data "SpellSuccess" "TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1,Piercing);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1d4,Piercing);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4,Piercing);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);TARGET:IF(Tagged('BOO',context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1,,,,not SavingThrow(Ability.Dexterity, 15));TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and not SizeEqualOrGreater(Size.Large)):DealDamage(1d8, Piercing,Magical,,0,,true);TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and SizeEqualOrGreater(Size.Large)):DealDamage(2d8, Piercing,Magical,,0,,true);IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject) and HasStatus('HUNTERS_MARK',context.Target,context.Source)):DealDamage(1d6, ThrownWeaponDamageType,Magical,,0,,true);IF(Character()):ApplyStatus(BLEEDING,100,1)"
+data "ThrowableTargetConditions" "Tagged('WPN_DAGGER')"
+data "DisplayName" "hc44613eaga609g44b7ga9b8g4c942a15d083;1"
+data "Description" "hc44613eaga609g44b7ga9b8g4c942a15d085;1"
+data "Icon" "Action_Multiattack_WhirlwindAttack"
+data "CastSound" "Action_Cast_SneakAttackProjectile"
+data "UseCosts" "BonusActionPoint:1"
+data "VerbalIntent" "Damage"
+data "DamageType" "Piercing"
+data "TooltipStatusApply" "ApplyStatus(BLEEDING,100,1)"
+data "CastEffect" "bf5fa9ef-7d14-4061-b393-10852789ff1b"
+data "TargetEffect" "b51922cf-e412-4462-8274-144781bac7f3"
+data "HitEffect" "5a88afee-d864-4dba-87a5-5bed5745e201"
+
+----
+
