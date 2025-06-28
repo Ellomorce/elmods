@@ -1,0 +1,1471 @@
+************ 1.WEAPONS ************
+
+--- Daggers ---
+
+Arcane Absorption Dagger - cf89e4d8-485c-4cef-8098-959834cc8ac1
+Artificial Leech - 81158eec-1fd0-4fd7-8b02-ce7f5e45f8b5
+Artificial Leech - 9de4ffa7-4d2f-44c5-8bc9-0a17a732f74c
+Assassin's Touch - 520d3f36-af72-4385-89af-f585c8edc9cf
+Bloodthirst - d90abf24-3c4e-4bbf-84aa-def05ca9962a
+Cold Snap - a8661143-d94d-4f49-a92f-cbd0a9a500a1
+Dagger - 3cc9b9ed-5b29-4f29-82b7-3d621a510a33
+Dagger - 569b0f3d-abcd-4b01-aaf0-979091288163
+Dagger - 97be1f14-e49a-45fe-89c7-99c04653599d
+Dagger - b66d62c4-b38f-43dd-920d-40d250d66d03
+Dagger +1 - 1eab180b-5bf9-48ea-aece-7ba20d1deb78
+Dagger +2 - c68026c8-8af9-4a05-b77a-246a01bafe61
+Dagger of Shar - 12f1e6ce-7042-481b-879b-fa81c7688c7d
+Dolor Amarus - d3e121fb-09c0-4478-84f1-f4f3e28cd50f
+Dread Iron Dagger - 9829ba14-b236-4e50-ad54-426ff618074b
+Gleamdance Dagger - 3d449afb-b99a-492c-b636-85ced6b39e69
+Hunter's Dagger - e101101e-e4ba-48b6-9f82-267ca1cd84dc
+Murderous Cut - 2384a69e-7d7d-4052-84ee-2f53fa45320f
+Needle of the Outlaw Rogue - 0eadec28-a9ce-4dbf-be86-63f58a49b902
+Polished Dagger - 7dbbded9-04fa-4b70-8b5a-131beedc1479
+Promise - 9e31fd58-c2a6-487c-9054-913aecd5ce32
+Rhapsody - c5375a2c-f03c-464b-a482-5251debbfabb
+Ritual Dagger - 11aa209f-6e42-40bd-a12c-aa33445c21ea
+Rusty Dagger - 6a321455-d00f-4164-ab12-3601fef2ae6e
+Sussur Dagger - 8733edb7-f04e-4b6d-ad48-7d49fb782bef
+Worgfang - 529fe100-de0b-4a34-a669-4861ee4538a2
+------------------------------------------------------------------------------------------
+
+
+--- Shortswords/Rapiers/Scimtars ---
+
+Infernal Rapier - c9b018e7-f3a9-4500-a6b0-386d7e6b7295
+Infernal Rapier - e925fb75-96a5-4634-9e0b-a239e48da115
+Justiciar's Scimitar - 74ecc6e4-ee5d-4cd8-96cb-dd677a4acc82
+Pelorsun Blade - 467b9a2e-b7e8-4c01-b744-fae8e3b960fd
+Rapier - 6ccc6f4d-f2a7-4e38-a96d-c3fec92fc2de
+Rapier - 7061f489-4b13-4982-aa09-cf0ad961e75f
+Rapier +1 - 5a6cea10-b3f6-4370-8eed-0b69b4ba531a
+Rapier +2 - 5c572e8e-8693-48cf-b494-2df0341f7ced
+Rupturing Blade - 2d55309e-52ab-4270-9211-e432e4d8fc59
+Sword of Screams - df6698d2-b690-4aea-be83-956d3b2ea97e
+Belm - d60524f4-583e-4b16-91b2-871221d441cf
+Djinni Scimitar - 96f7647b-7485-4c0c-aaad-73a332d8e626
+Githyanki Shortsword - 4b54911a-a32d-48ad-8691-ff28801e1275
+Goblin Scimitar - 288356cc-0c6b-43c1-b049-dde418faf1f2
+Scimitar - 1576903a-cb77-4a05-be24-1714d8c61e34
+Scimitar - 868217db-9dcb-414c-bb88-e321ab3e0349
+Scimitar - b3f8f4ad-c56d-4fc2-8173-8a17cc36d756
+Scimitar - dcd46d13-d316-492a-a350-8e7492bce9c4
+Scimitar +1 - 7cc7a0e1-d0b8-4569-afb2-d538e8941894
+Sylvan Scimitar - b9656931-da39-4024-92a2-f45264593b14
+Thorn Blade - 3b44007e-eb36-4c03-b367-6619299b6994
+Ambusher - 7a96f6cc-c6bb-4caf-a1ab-a86af3fa21a5
+Assassin's Shortsword - 3c14116f-43da-4e73-92d1-903f46a9d55d
+Crimson Mischief - 5961d027-75fd-4ad7-964c-8b786b5839fb
+Executioner Sword - 3fab682c-abc7-43f0-b9bb-9faa9f612d8d
+Fleshrender - 3db6b7be-1e36-405e-94fd-cf5a9f0e4b68
+Render of Mind and Body - f06c0554-bba8-4036-ac92-1b225a578f57
+Render of Scrumptious Flesh - 5c41bb72-9a50-4d98-a12a-0de374c43f19
+Shortsword +1 - 261b946f-154b-4f75-8985-cab6531034a2
+Shortsword +2 - 0839fb15-24ab-4c3a-b168-413a47ed710a
+Shortsword of First Blood - 1e172d76-3433-4ee7-ae1a-9e7d8ae0f12b
+Slicing Shortsword - de0e16f6-6dbb-4edd-8ba5-106486b05552
+Sword of Clutching Umbra - 82afffba-16cb-47ff-8520-bac8b9c46ad3
+The Baneful - 3b578a43-222e-480b-8a22-2c424471099f
+Practice Sword - 5e651778-cc78-425e-b27d-483b1c8afa82
+Shortsword - 0a6f620d-32f4-499a-9c11-db105441a57a
+Shortsword - 0d5e17a5-510d-468a-8607-77a326bc453c
+Shortsword - 467ddb4f-6791-41fa-99f7-ee8620d63bbe
+Shortsword - 542a5052-fd63-4215-89a8-cdb2f5e3a541
+Shortsword - 91b72625-27da-4d2f-b97f-3c74ccf76e91
+Shortsword - b39629a9-c5e0-4835-8c07-f780b830f798
+Speedy Reply - 4456e2ec-ba1f-4f53-aab8-847249cabc09
+Adamantine Scimitar - 503b4f8d-da61-4fc1-a4b7-cad124a10c69
+------------------------------------------------------------------------------------------
+
+
+--- Greatswords ---
+
+Adamantine Longsword - d116f35c-4399-408c-ba90-b455a5d29a1f
+Battleaxe - 2f5c7142-c8d7-4f6a-98b9-47a3ed00e1c5
+Battleaxe - a086b825-8f17-4f0e-855b-178f8cdc515a
+Battleaxe +1 - c17ee133-cbb5-418f-88be-5ef27991cf50
+Blackguard's Sword - 0a11f6f4-5605-4dff-a3e6-b172e4dba555
+Blade of Oppressed Souls - 0a024202-84d0-4466-a958-76b2a163781c
+Bonesaw - 0b1e7b94-6ec9-4ae4-a81b-5c91b88eff1f
+Bonesaw - 8dcd8335-c066-4b33-ac3a-00f29dedb05f
+Bonesaw - b9739be6-7c2b-4fe9-be36-13ff1094e79c
+Combination Axe - 35465a58-d21d-46b4-a429-64d187b0781f
+Duke Ravengard's Longsword - 06fbf04c-41be-4709-91df-76b4cbc9ccf5
+Githyanki Longsword - 907a794b-b089-406b-880d-6f2df2bb3f13
+Infernal Longsword - e1c37edf-ad63-44a5-8fd4-44687169747e
+Katana - 7050c02e-f0e1-46b8-9400-2514805ecd2e
+King's Knife - 5908898d-5d9e-40de-ab07-3f8fb5f0174c
+Larethian's Wrath - 56a7539c-7c5c-4c44-b8e0-5ff2e5beb4e9
+Longsword - 1865323f-b428-4791-a0a9-578841e57463
+Longsword - 2af7255d-bae1-4d4c-a8ba-4a2b5909a794
+Longsword - 344ac552-11ff-4150-8bb4-7eed8fb78588
+Longsword - dd0e60fd-a334-411b-97cf-fa6a015c578b
+Longsword - a4338d7c-5b70-4076-9711-d3803fab2e1b
+Longsword +1 - 3fc2ba50-3070-4caa-abe8-3bf885969bde
+Longsword +1 - 970c962d-dca1-4b90-8d02-81a4e59e3f08
+Phalar Aluve - 6d0d3206-50b5-48ed-af92-a146ed6b98f2
+Phalar Aluve - 67914214-e45d-4181-97e6-1c22e406b031
+Phalar Aluve - 8f5915b3-3da6-4c27-9b36-c8734b0876a4
+Rusty Longsword - dddd2204-0ee3-47b0-a7ea-6b5216a65e89
+Steelforged Sword - 65b41886-823d-416b-b53e-c332a3aad530
+Sword of the Emperor - 777cb3d5-0689-4cfd-9719-b460897cb9e6
+Voss' Silver Sword - 20c66f8d-f455-42fc-8e48-543512247e75
+Silver Sword of the Astral Plane - f01c3f5d-c542-420f-86c5-bdddf7819e29
+Balduran's Giantslayer - 7219fca3-5f41-43a0-8253-f4c09d8b6308
+Everburn Blade - 660483f6-8eb3-45be-88a4-327f9d417026
+Githyanki Greatsword - 1ebdc61e-3bc6-4da5-adb9-34dd839b012a
+Githyanki Greatsword - d1082e88-b1e2-479d-913f-1413784d95a1
+Greatsword - ecfb9f69-5bc3-402e-acd8-c91d57e28403
+Greatsword - 2798c9f8-b06b-44d4-9d6c-e6d982c502fa
+Jorgoral's Greatsword - 26ac9758-19f4-4867-9d5d-57437d6b9794
+Sethan - 7bbc2408-14de-4129-bab0-db29927b7f43
+Soulbreaker Greatsword - 523a959d-4101-4beb-9a8e-276c3f687c02
+Sussur Greatsword - 44dedec0-df82-4ed3-b9ca-147bd830e312
+Sword of Chaos - e76b0896-dc70-4fb9-b202-cf5efc2de15a
+Sword of Justice - 455383a5-1211-4500-85f9-b71fad3fbf15
+Svartlebee's Woundseeker - 56316970-8adb-4936-8c73-9d8a7c41a8a4
+Watcher Greatsword - c25e9381-7fbd-4e07-9383-9df8aa43d4ed
+Watcher Greatsword - ebdf1022-bb30-4a03-ac29-82f488bfce4f
+------------------------------------------------------------------------------------------
+
+
+--- Axes ---
+
+Ritual Axe - 5c996c03-99e9-40c1-8acf-d761550d26f5
+Handaxe - 46b64a36-8446-45bd-98e8-ee81e3136baa
+Handaxe +1 - 7a05135d-b285-4186-8a32-a870f1684b60
+Dragon's Grasp - 4f67b6cb-ccc4-497e-b5d3-2804726e8706
+------------------------------------------------------------------------------------------
+
+
+--- Greataxes/Glaives ---
+
+Greataxe - d5712e24-ce9e-42ce-8fad-6e049b62c28c
+Greataxe - e99fd01c-2c7a-459e-8df0-3d7349239430
+Drakethroat Glaive - 89f511d6-6d36-4480-9ee8-6e0145c960ef
+Glaive - 45bbe45d-1a5d-4e64-9750-af6744ec617e
+Glaive - 7507770e-7cef-46b5-8e5d-454d8fedcb6a
+Glaive - 99f3b2d9-e03d-4cd5-9a67-5435a95682da
+Glaive +1 - 15d2830c-ac76-4b5b-969d-05197875b1c2
+Monster Slayer Glaive - 0c3fcc8d-bf4b-4f65-95ec-a5d1030afe66
+Moonlight Glaive - 24f276e7-f08f-44f1-ab97-3df34fd52add
+Sorrow - 0de9e072-7048-4d07-8bbe-79e0591674c2
+The Dancing Breeze - 0a6e5a22-414d-4f4e-b9e1-6083822648c4
+Exterminator's Axe - 6e05319b-d8c4-4dbc-b0f4-cea561810fa6
+Greataxe +1 - afbfaee7-e2cd-48e7-8c46-d2377c7320e3
+The Undead Bane - 9a81cb70-6a5c-465b-b4b9-0931d544095c
+Very Heavy Greataxe - b3ed22d9-dd32-46c3-928a-e7253a843dfc
+Blooded Greataxe - e1e090ec-ab8c-4db4-a0c3-8b7ab24bb181
+Defender Greataxe - 560fa90c-942b-4661-a86b-e20f9362c9ba
+Hellfire Greataxe - dd0e9fa2-e012-454d-9f2d-53c0a0776015
+Halberd - f928a70d-5b23-4605-9cae-5342f9ed206e
+Halberd - 2efeda1e-c5d1-48ef-af6f-b1706fd4c3e2
+Halberd +1 - d1019d9d-e5ae-4601-8a63-1b33421926e1
+Harmonium Halberd - 1060b5af-6119-4237-9e8f-b3a1a054d8c9
+Hellbeard Halberd - 35682866-bd23-44a2-9a25-6a3ba2ee2b48
+Halberd of Vigilance - 187691ba-7027-49a8-ba74-d0dc5cafbe12
+Merregon Halberd - c86a3bf4-16b4-4d76-a33d-3df5c265aca8
+Pike - baa5b139-42ad-40fd-b6c3-6b52b092c48e
+Pike - 6dc63d1d-9efc-4031-b8bb-34684196286b
+Pike +1 - 40fa8049-b6c1-4463-b212-52ad13b5d687
+Returning Pike - 1047ac9f-7860-44fd-9154-0f06fe64936c
+------------------------------------------------------------------------------------------
+
+
+--- Spear/Tridents ---
+
+Spear - 91a45770-6596-4ca9-9ae8-eb35cb54a36f
+Spear - 9f0f1c0e-012d-44e1-9b29-86c64d2bf675
+Spear - b8878c58-e510-4c2f-97f0-da9cc442a75f
+Spear - cdfab852-aa07-46b2-ae92-8ab2bb9b1898
+Spear +1 - 158e6f29-89e9-4279-8f8f-85078f047225
+Spear of Night - bca0fca1-b81d-47a7-9be3-18e43a8fe626
+Spear of Night - d590884d-55a2-4136-9777-531ee7d53f7
+Shar's Spear of Evening - 61f31bf6-47ec-41e1-9385-2f6c26facc87
+Selûne's Spear of Night - 2eeabe97-8f29-4f4f-827e-6cfcd8fd1779
+Selûne's Spear of Night - d2fe9a24-affd-464a-b757-a48d6f50dd7d
+Javelin - 0a7adc8d-b561-4f81-a8f2-ec07b5d54955
+Javelin - a20a96d6-cc50-442c-b278-60d8b30de397
+Allandra's Whelm - 503d3d60-8798-4c65-bec1-347392733c86
+Nyrulna - daf0be7f-87d9-448a-b94e-471ffec40ac5
+The Sparky Points - cfdc8fdc-9f59-415f-8098-70035585eadb
+Trident - 80c499a7-d2e6-4fe2-bd17-8b393adaef37
+Trident - d3807461-7c32-44ae-9aba-49ef4d3bf35e
+Trident +1 - 2fab5801-76b1-4669-95d9-7df76bed12dd
+Trident of the Waves - 657678f2-5924-4d8e-b8ce-a2079154c91b
+------------------------------------------------------------------------------------------
+
+
+--- Quarterstaffs ---
+
+Melf's First Staff - 1e8e2d4d-904d-4367-ad28-30012915f458
+Mourning Frost - cab10a42-8c85-459a-9d68-b4836388c022
+Nature's Snare - 4893bf4e-97e1-48e0-ada8-6bbf115ad68b
+Pale Oak - 13f6ff0c-08c4-4e9f-a624-511389b68dc2
+Pitchfork - c8274575-61a2-43a7-bde0-65a278dde287
+Quarterstaff - 96e2abaf-78ff-4dcb-a6a3-a5f0c348bd9f
+Quarterstaff - b789aedc-c010-47b0-9801-d9aacdce4c56
+Quarterstaff +1 - 2fa18ee4-92df-486f-97d2-dd0a720b6fad
+Rain Dancer - 28b38ae1-8d66-4d8e-a4f0-5d4c6c342c59
+Ritual Staff - 58c90cf9-5541-4909-a853-d1a0ca31c046
+Staff of Arcane Blessing - da0ba39a-366d-456b-8dbd-1c5790ca40bf
+Staff of Cherished Necromancy - ecb02247-a407-445e-8046-856133d198bf
+Staff of Crones - 544e81be-cc28-4fdf-aea7-9a31940af4d0
+Staff of Interruption - fcbb2c63-ac59-42e0-ad0b-d91cf9a47b60
+Staff of the Moonmaiden - 4f0bc5b8-ff1e-49cd-b1f0-ee45c1ae4a9e
+Gold Wyrmling Staff - 8aaf86a8-c884-4368-bcc5-1f91fd210624
+Harper Sacredstriker - 111e30c6-ced0-478b-9922-3428cb50b7e1
+Hollow's Staff - bb1fef3b-ac2b-427e-9b6f-273a8c7e4ff8
+Bigboy's Chew Toy - 59cd94ae-c26c-459a-89d8-a1f1ebdd13ba
+Caitiff Staff - 518d1630-d2bf-4dca-8c24-9d7ba9d529f3
+Cacophony - 4708068e-542a-4dfb-b8a0-56e1ee371600
+------------------------------------------------------------------------------------------
+
+
+--- Bows ---
+
+Goblin Bow - 5e0afa45-29ec-4154-ae8b-1c0b2bde5590
+Goblin Bow - fd6f48fc-b153-4e6b-9a7f-86ac2963c95f
+Bow of Awareness - c57ba806-b340-4307-9c37-170792052b8d
+Darkfire Shortbow - 9b5d79a8-98ad-4d67-9730-ba0453eee488
+Hunting Shortbow - a1d1634c-02e6-4428-a822-7603e9163264
+Shortbow - 74c41595-b1df-45e4-bb3f-a93b9d7f421c
+Shortbow - c5403c1d-f372-43e1-927a-9189e9e3545d
+Shortbow +1 - a46173b7-afd6-48e0-9c76-817acd027574
+Bow of the Banshee - c040d1fc-4804-4774-8367-6dfa397e27e2
+Longbow - 86e3d864-309c-4c17-ba38-877ce487d481
+Longbow - f5a95e54-b4ff-482d-b5f4-392917125c86
+Hellrider Longbow - 75c90d55-c262-446d-937c-8adbef1e3e93
+Longbow +1 - 049173ec-636a-487e-a9ed-bfafeadf6bb7
+Spellthief - db4a3e0f-6315-4337-abce-aad5f38513aa
+The Joltshooter - 38b80bf8-9cf8-4495-8267-eb84c7779d0c
+Titanstring Bow - 13236988-83df-4bf2-8005-b4ac31f21ff4
+The Dead Shot - 269b2b03-aaaf-4635-98e2-e9b32dab5ffa
+Gontr Mael - 7e81bb6a-f465-4fe9-b1db-7ce6198246ba
+------------------------------------------------------------------------------------------
+
+
+--- Crossbows ---
+
+Light Crossbow - 43b7fbf5-7f6e-4e9e-bce7-c679eea44593
+Light Crossbow - 5e7631fa-ea5a-420d-9bc0-32e7a540538e
+Light Crossbow +1 - 509dd5c3-7c72-4335-9b23-19a14a884f2e
+Unseen Menace - cd6c6adc-8792-4378-8c63-8169cfad6c55
+Hand Crossbow - a5d843ab-c3af-4e60-a925-bb2e15828938
+Hand Crossbow - f554e750-4a86-45d7-b1a5-027e27df55ef
+Hand Crossbow - 57e8af03-6452-4bb8-a74a-bc4b17a79fc3
+Hand Crossbow - 7f2203f8-0162-4c3d-8635-c700fa2982ab
+Hand Crossbow - d47b6341-daa8-438a-b57e-9f1051b778dd
+Hellfire Hand Crossbow - f5b3b579-3569-4f6d-835c-9c19245152d6
+Heavy Crossbow - 00544958-4656-4e69-8feb-282cb11a6c9e
+Heavy Crossbow - 04622e3d-5b3f-4f2c-a0db-513a717d911f
+Heavy Crossbow - 17e752a3-8321-46a1-a139-53f67209b749
+Crossbow of Arcane Force - b11756a8-519a-406c-be36-c3603c3edae1
+Heavy Crossbow +1 - 6af59cba-cc38-4511-9c3b-75caac4b96b5
+Gandrel's Aspiration - 12710611-6c85-4280-a597-8286e18f5740
+Githyanki Crossbow - b674ea52-2b6f-4977-b6d5-98810304a98b
+Fabricated Arbalest - 45d888b5-e002-4bb8-85d7-6df569aceaa4
+Hellfire Engine Crossbow - f746397f-c489-4121-8499-40017981e290
+Ne'er Misser - c9dcf78e-a46c-4959-aade-707d9dd2c51a
+Magical Hand Crossbow - 759a080f-bd13-4cd8-a417-1677b8ee9d73
+------------------------------------------------------------------------------------------
+
+
+--- Clubs/Greatclubs ---
+
+Argument Solver - fddc251b-22d8-4036-a9fb-85fba8635cf0
+Greatclub - 19ce6720-03b6-4d22-bf35-4963b510d1da
+Greatclub - 20bd2850-f6b3-4f13-bf96-c566d8df0de4
+Greatclub - 7c749dd0-f750-4d6d-8ea0-5401b3c6b13d
+Greatclub +1 - d64e1a13-18a5-4cdc-ac02-977523435f8f
+Heavy Spiked Club - 1fdc0473-8d0f-4e59-8ef8-9bd67568c002
+Punch-Drunk Bastard - 82029987-a77c-4bb5-99b9-3b513cb551f1
+Ironwood Club - 67ce5d1a-e0cd-48ce-94a9-9a17615e13d9
+Enforcer Club - d3cd1f93-64bb-4d57-bafc-19ee1cefc564
+Club - 54f4b97c-ede8-49e2-a5aa-50c6f15c232f
+Club - d9c87013-1f41-4c17-b71d-f353ec0d64e8
+Club of Hill Giant Strength - 768010ce-dcfe-43bb-8398-2d681d4fa6eb
+Cultist Brand - 28373d60-893f-411c-a029-35c31665c821
+Cultist Brand - 4d64bcbe-a37d-4537-8ff1-510083989435
+Cultist Brand - 60f96f90-ae41-455c-90fb-c8b611c7dc3e
+------------------------------------------------------------------------------------------
+
+
+--- Maces/Flails ---
+
+Adamantine Mace - df08ec01-52f0-4fdf-b5e7-4fa0970a480a
+Creation's Echo - 62da3651-f2e4-4371-b5f2-fd06dd705030
+Corellon's Grace - 48b4f49b-2937-4664-ac87-7db2c64d09c9
+Despair of Athkatla - e8eca87d-e01f-40d3-8097-a787602f1dc9
+Devotee's Mace - f8578a13-a857-4043-91e4-8101c9e7c004
+Shadow Flail - 8a527abd-a2ff-4267-a067-d26bdf6742ee
+Infernal Mace - 8e13f737-40e5-4be5-817e-1c5d6199b08b
+Loviatar's Scourge - b1dc33ba-c595-4036-9683-26635f297e44
+Mace +1 - 5a948b12-ca43-4256-9821-0d151036dbd1
+Mace - 3186796d-3ab3-4d49-bfc2-cba1aff0cf5a
+Mace - 87a16db5-9a01-4053-a17d-a3d17a721db7
+Mace - dd848a74-782c-4fcf-a06f-9c979fecf54b
+Deva Mace - c0fb0a11-1f29-470c-a95b-102377ef2356
+Corrosive Flail - 0a44de18-b355-4692-9256-d920b9bb25b7
+Defender Flail - cf19058b-2be6-411c-9227-7058053fa37a
+Duellist's Prerogative - d49bf05e-4f94-4860-bd8c-ae63dae811be
+Morningstar - 26a9fba6-1a60-4691-84ea-da7ffcb304e0
+Morningstar - 5ca50a09-548b-4134-a0c7-98f10e8d69e6
+Morningstar - ed2339ed-db72-4753-b467-b257bb02a2fc
+Morningstar +1 - deea755b-5335-49d9-bd0e-dbaab9eaf94c
+Myrkulite Scourge - 05ca18da-41f4-4385-b370-0f75a989e119
+The Blood of Lathander - 7b961f08-46c1-46b1-99bc-c59283831a0b
+------------------------------------------------------------------------------------------
+
+
+--- WarPicks/Sickles/Hammers ---
+
+Sussur Sickle - 6b95bb45-41c3-4954-ac2f-ef1aa169b0b6
+The Spellsparkler - 53d6be1b-eac1-4b88-83ab-ba17956eca57
+The Watcher's Guide - 7fdf8022-629a-4b34-b0c0-3295bfb2903d
+Vision of the Absolute - a2f4c951-7db4-4d60-9888-f2ad50af7110
+Wavemother's Sickle - 5b4b10cd-089f-4675-8392-5bfa6749d79c
+Woe - cf42b0d0-89d8-4756-b6d7-1e258dceeab0
+Xyanyde - 4b0131e0-875a-4f3c-8b41-dbf653857d00
+Sickle - 50d677ed-3a0e-40e9-8291-ee6823af5672
+Sickle - cd50dd17-b1ed-4e8d-8825-ffc1e3cc19e0
+Sickle of BHAAL - 1c6e9b7d-db4d-4815-ad38-ef5a2ab481df
+Sickle of BHAAL - a07f2e91-e084-4fe5-9dbb-ef7de76a3c0a
+Sickle of BHAAL - cb8405e3-704c-43d2-9bbe-89959b4f085e
+Light Hammer - c3bf6216-310c-4b71-ab7e-9997d8c8d251
+Light Hammer - 494f21ac-5a1b-4e91-bd30-551b79532516
+Light Hammer - d4033a02-cea0-4f26-a6a9-7c1a836c4112
+Light Hammer +1 - d0419aaf-9e20-4029-b8e9-9e1a62661b13
+Deep Delver - a42bf0f7-3a78-4aae-b94f-ed92a89e847c
+Pickaxe - 8693aa7e-cd47-4990-80e7-51041f036400
+Rebound Battleaxe - d2d5141a-9804-49b6-96e2-5738d85feffa
+Thermodynamo Axe - b8f28da8-f8f5-4679-8c5f-ecc505811208
+Vicious Battleaxe - 3ff89075-1ef3-487e-b456-a1b536fd681a
+War Pick - 129069f3-6294-4c23-aa16-40daa1c48b35
+War Pick - a088775a-8f75-42f2-aa74-76a3f80701fa
+War Pick +1 - 75586d3e-21b2-4d94-ac99-99a6b0e8c3dd
+Charge-Bound Warhammer - 50940e05-ba59-4569-a71f-79af34b605a8
+Clown Hammer - 72207448-c6b6-42fc-b9ef-a34fdd3c1265
+Dwarven Thrower - 596202a9-7d6b-4bcf-8748-dbf6aa55b002
+Faithbreaker - 37a29c63-3fcd-43bd-8021-c363dcc852bc
+Hammer of the Just - d0b0b019-5954-4e80-97f5-4206ac1bc0db
+Intransigent Warhammer - 4d1f9bce-1884-47d0-a420-69417f397139
+Ketheric's Warhammer - 1f8252a3-3227-48a3-b500-996e571cac68
+Orphic Hammer - 776324ed-a368-4994-b5f6-fd9112a10c9b
+Warhammer - 2e65cacd-f96d-46d9-b9b5-0f4fc0df190d
+Warhammer - 6b17998d-2e79-405d-8b1f-beb53658312f
+Warhammer +1 - 3e1b3db9-036e-4931-ab92-c3730a1c3d5f
+Corpsegrinder - c1aa1bf6-2bb8-4472-9e18-b5285101c4b3
+Doom Hammer - 2f481fef-1877-4eac-820d-dc3210ff0b36
+Foebreaker - 89eacf71-5bf6-4e7f-ac9d-e2d7d1d6bcb0
+Hamarhraft - efb003c3-af98-43d7-bcf4-af29702fb531
+Maul - 28e67c96-c955-450e-b217-bb7609b6dbd3
+Maul - 5487ceb4-b009-46ae-8ed6-cd3baaf0a18d
+Maul +1 - 7e8ef269-0e7b-4352-8828-89c5fced943c
+------------------------------------------------------------------------------------------
+
+
+--- MISCELLANOUS ---
+
+Salami - e082f373-81ec-4f4b-818b-9ee86952e2fa
+Shadow Lantern - c9ebcfae-8c9a-4acc-8a30-da7830b32121
+Shining Staver-of-Skulls - b76baf78-5aaf-4c15-9468-6333a0eb4b92
+Skybreaker - 733a70a1-2e0f-46f4-aca1-037c0335dc72
+Stillmaker - 0cfbd2ef-6eb3-4283-b0c9-8e23a4f9bf8c
+Torch - 50c43f27-a12e-412c-88f0-56e15eba692a
+Torch of Revocation - 88be0257-cd9a-4922-85c9-178ad8579af2
+Twisting Branch - c71e2798-31ae-4f57-8073-c6195c2e9d02
+Whipping Cane - 3a9e4e60-9f58-4fb9-8a16-4cf784ad6f0d
+Moonlantern - 9a3a1719-3f18-400e-ab77-55b575c12090
+Moonlantern - 9aca1109-a59d-47d3-8f35-f248b70518f9
+Lantern - 0fefe705-2782-4a34-b842-40896a5c0efc
+------------------------------------------------------------------------------------------
+
+
+************************************************************************************************************
+
+
+
+
+************ 2.CLOTHING ************
+
+Armour of Uninhibited Kushigo - ab7f13b8-3b3f-49be-8708-4d52b9690e45
+Barbarian Clothes - f6599c3f-cfcd-4721-9cc2-1df5d8ff0154
+Bided Time - 9e8f0ce6-c344-47f9-bb99-202cdd2f7d73
+Bloodguzzler Garb - 5fc2fcce-810d-47d2-824c-f6acf7b81a22
+Bonespike Garb - 7cca51a5-bfa6-4c65-b2d9-ef0167762a19
+Cloth of Authority - 8b868b78-320b-43d0-b5a8-5e52669fc11e
+Drunken Cloth - 652c5cb5-b03b-4bd4-8993-3d4f07ed215c
+Enraging Heart Garb - 3a213e92-1714-4f11-9726-ca762943d2cc
+Icebite Robe - 50faa322-b43d-475a-91b7-25d390ac3ef6
+Infernal Robe - b2de6dee-50c1-45b9-b35d-7d5e8d53135f
+Moon Devotion Robe - 3b498702-834f-4989-a9d1-c0f3b38fbcfc 
+Poisoner's Robe - 0db056b3-23d1-4873-883d-482b5d9337b5
+Potent Robe - 1e64badf-4898-4169-9b02-3910518dc73d
+Robe of Exquisite Focus - 1f038181-a534-434b-b447-7c4084636cc3
+Robe of Supreme Defences - f3e90ffd-1559-4915-8829-740f55741c92
+Robe of Summer - ffed890a-69fe-4798-8c71-1bd3b72369bc
+Robe of the Weave - adbd02c8-ee1e-4c0f-9688-78be9b98415a
+Robe of the Weave - 56906f41-61a3-4c23-aa46-2295e08d9add
+Simple Robe - 168b9099-19f5-44e4-b55c-e64ceb60b71f
+Sorcerer Robe - 4ba55c6f-1302-4069-9e04-ff0bf2a7ede2 
+Sorcerer Robe - 37be86c0-f4af-48af-86c9-e91c57ce04bc
+The Graceful Cloth - b18ef236-44dc-43cd-8f6e-51ae785fae4d
+The Mighty Cloth - 48215bcb-b4a2-48cb-bfbe-8b601e678032
+The Protecty Sparkswall - f28c3264-8cdb-46c1-800f-a47a01e49efc
+Veil of the Morning - fe48d485-1563-4172-952c-7eb53d9faca8
+Vest of Soul Rejuvenation - 1c69a87e-9136-4e13-90af-c0f02d0fc81f
+Viconia's Priestess Robe - bf59b289-5603-479f-8fd3-7cb258d31ba5
+Wavemother's Robe - 56a26829-5103-49e7-8f5a-b88381a86903
+
+************************************************************************************************************
+
+
+
+
+************ 3.ARMOUR ************
+
+Adamantine Scale Mail - 5427c806-5565-421f-a00f-a8282a9f504f
+Adamantine Splint Armour - ea3cf349-19ab-4104-9253-8e182bdbf538
+Armour of Agility - 42e6357a-4c05-4eda-9415-6b6b4c7d44c5
+Armour of Devotion - c4af39d8-628d-4791-9dc4-4446ee31e160
+Armour of Landfall - baa33dbe-6f95-4569-87bf-9582b4b58bd2
+Armour of Moonbasking - d33d71f8-f7b9-4c19-9b39-03d0b9ba8829
+Armour of Persistence - fb2ff6d1-3096-4904-813c-a448e3fbec4d
+Armour of the Sporekeeper - eb3a4744-26e4-404a-be65-c72bb17f5cfc
+Barkskin Armour - a1d321be-ff4c-423a-bc50-bcad85a3a83a
+Blackguard's Plate - 1109da0a-2d12-4ed3-a93a-fe369023ead3
+Blazer of Benevolence - 947dbbe3-19e3-4b96-ba5a-14750f0acc29
+Bhaalist Armour - 443b2caf-8d36-42cf-b389-d774229ed18c
+Breastplate - 4814825e-23ee-41ed-9784-d9963434150d
+Breastplate +1 - ad912cef-8bfb-4bf3-98f0-f2c5e3b45915
+Breastplate +2 - 4842e9ec-95ba-4168-81a9-f184b08d6c2c
+Broken Padded Armour - 357db089-630f-437d-9a04-88c0d5d3c0ff
+Chain Mail - b973e3cb-c18d-4514-ba01-ebcabbf26968
+Chain Mail +1 - ed7a8055-cf36-42c8-ad77-15a80d19744f
+Chain Mail +2 - d8120501-e5bb-4eb1-b5cf-120b8bfd2ab2
+Chain of Liberation - 88107048-2ec3-4e48-9670-4d4dd2ca0ff9
+Chain Shirt - 921cd1e1-c39c-44c3-a090-b667322af7f8
+Chain Shirt +1 - eac652ed-ecf7-4505-bf64-0fec29e7d677
+Chain Shirt +2 - 461f1cbe-6d0d-40ee-8bf6-8a68e0570d6f
+Dark Justiciar Mail - 14c4c9a8-9d2b-4b15-a6b6-a24852092c5a
+Dark Justiciar Half Plate - 20318684-a35f-4830-b566-41ecd379893a
+Druid Leather Armour - b8468a39-a5ff-4de0-85be-a8883a479628
+Druid Leather Armour - 10338c7e-39c8-44b3-a0a2-2a76af453718
+Drow Studded Leather Armour - 431f019e-3706-4a23-af48-e29acbc0e43b
+Drow Studded Leather Armour - cab3455f-59fe-42be-8dcd-7cd61149389a
+Dwarven Splintmail - ed0e4aee-affe-4d80-bf09-086d4515fc2f
+Elegant Studded Leather - 8472235c-8ced-4db3-825f-322eace0f34d
+Emblazoned Plate of the Marshal - 637f2b2f-9947-406e-b942-8b3b884172c0
+Faded Drow Leather Armour - cf6237a2-7f37-4796-b239-0685505510d4
+Githyanki Half Plate - 38c63f49-3c50-46d0-90d3-68b247542c36
+Githyanki Half Plate - 85ed2fdb-c676-4e14-9641-ffda788078e8
+Githyanki Half Plate - 1306c1bf-7db6-4036-9799-a5d1a1745694
+Githyanki Half Plate - d1ec23df-f3d6-4378-ab07-dea2ff1ad556
+Half Plate (very rare) - 742d43ff-b74d-4cbe-9554-51773bbccdc2
+Half Plate Armour - 34a71679-0ab5-4fd4-bba8-d6ad341ee490
+Half Plate Armour +1 - c3407c8d-0180-4f5a-9530-e1167e7290b3
+Half Plate Armour +1 - 4a712833-fe5c-4780-bc56-620972336eda
+Half Plate Armour +2 - 15338da1-c4f8-4b43-912c-c14e7d9a8579
+Helldusk Armour - 7ae705fd-1cfd-4482-a584-d2e68f9c1262
+Hide Armour - b78fabcc-d2df-4c74-b5d4-1eda6dc4c071
+Hide Armour +1 - 94ed8ec8-93a4-4a8c-bc47-55cb3faae7c0
+Hide Armour +2 - fd4ab5b0-67e6-4a8b-8745-2003f2f5ada3
+Leather Armour - 02ae5d88-8044-43df-8363-02a2900776db
+Leather Armour +1 - 90a79e46-e327-41f4-a349-8e4dd70b1892
+Leather Armour +2 - ac71c753-c207-465c-b28b-c10f95ed0745
+Luminous Armour - a2cbaf4f-3eb8-4362-9f2e-d325a0d47a36
+Padded Armour - 63cc7723-245d-4b62-b9e6-5a47283cf777
+Padded Armour +1 - f5faa6c5-a43c-4edd-a77f-6e7536a7e683
+Padded Armour +1 - fc721f60-be51-4903-b5cf-79e43bf0343c
+Padded Armour +2 - 96613037-cbac-4f43-a39b-584e6f2629c7
+Padded Armour +2 - f5faa6c5-a43c-4edd-a77f-6e7536a7e683
+Penumbra Armour - 3ce4d5d2-3ed0-470e-8cea-bdac81a60583
+Plate Armour - 95b4e2c4-759a-4d33-a2d1-4e0ee6ed4f29
+Plate Armour +1 - dd905194-9a67-4c61-b26d-5b4da4725cde
+Plate Armour +2 - fdb8ce53-51dc-4ccb-9e29-d1d99040e60b
+Reaper's Embrace - 53b3e771-5835-4703-8845-28169b836b8c
+Reaper's Embrace - adae74e9-c103-4ddc-b7d2-1fa24b527f83
+Rippling Force Mail - b2530a6b-1235-4f5f-b61c-d174a980bc0b
+Robust Chain Shirt - 81cdbea7-3cd5-44a5-baa7-852c930bdf7b
+Scale Mail - ca0aafad-0f1e-4d76-8e3b-925397bb436b
+Scale Mail +1 - dc748177-8590-4a99-a446-feccbd8d8eb4
+Scale Mail +2 - 21f0dd84-6f02-4be9-8654-4cebd00dcbaf
+Scale Mail of Devotion - a455f1a1-acc6-4fce-a09e-111aceced98a
+Scale Mail of the Ancients - e4daf34d-053c-471a-9171-92fa9b4db4af
+Scale Mail of Vengeance - bed301f2-cbb8-492f-b94a-597dfc119b3c
+Selunite Robe - 204de787-46de-4d39-8fe0-2e080bf44a61
+Sharpened Snare Cuirass - dee3077c-f9ef-4b28-8878-9b61a92ae601
+Simple Jerkin - da345d08-2186-4e4a-857c-3fd6a104cec6
+Slippery Chain Shirt - e6e74ef9-1916-4c6b-a7bb-98fc83e71b62
+Spidersilk Armour - c0c0534c-b7fc-4d0b-a335-b8f4c548852d
+Splint Armour - 8ed82f7e-fdd4-4a9f-94b6-f256c599bfdd
+Splint Armour +1 - ecfb1364-b1a0-4d0e-b82a-0becd8c291fd
+Splint Armour +2 - 2e8dfe32-cd6e-475b-98b5-5e2d9c42a7df
+Studded Leather Armour - 19451420-13f6-444c-a15b-7abb6dde3f91
+Studded Leather Armour - e3f2d3d9-8ec6-4033-911a-966630fd1344
+Studded Leather Armour +1 - 58d7927f-c6eb-4635-85b6-70265c621b3d
+Studded Leather Armour +2 - 83603f36-d158-4a0e-b9c9-358413ba3a92
+The Jolty Vest - 1fda52bd-6983-49a3-ba52-6756327a5182
+Unwanted Masterwork Scalemail - 5ff8df3a-6924-4eb4-9d1a-9e87bd644bf7
+
+************************************************************************************************************
+
+
+
+
+************ 4.SHIELDS ************
+
+Absolute's Warboard - 3d57c1a7-2dee-4a0f-aa7a-e7b6574b75e3
+Gloomstrand Shield - 1977f0ae-4269-4024-bb3b-a4cca54fafe0
+Glowing Shield - 3374ad91-ddcf-430a-bddd-f48e8699ade9
+Ironvine Shield - eb06636a-8052-492e-bfb1-67fcb18358d1
+Safeguard Shield - 3138b480-3ef6-42af-ba35-e4cad4e962ee
+The Real Sparky Sparkswall - 93c2143c-1c9f-493e-9fee-2310c7bee672
+Watcher's Shield - cb2b1ac8-5589-464f-ac9f-ccd6fd27ebed
+Wood Woad Shield - 90ba50bd-3e65-42ec-9f21-6e07d3ed89ab
+Absolute's Protector - 53b3317f-5a52-41c0-89ea-c6ef31adc4f7
+Adamantine Shield - 96907713-b560-4daf-ab32-3c1aec3f3890
+Iron-Banded Shield +1 - 26b81847-b0dd-4150-aef7-602fcbb72eca
+Justiciar's Greatshield - a189686a-cfcf-4157-9c18-f7a8e7f0be87
+Ketheric's Shield - 6cb88e48-70ce-4304-b3b6-db52d1880bec
+Sentinel Shield - 2baa835f-1422-43f0-9d2a-11e601fbb25e
+Shield +1 - cb2d6c27-ec29-4555-adf2-41e8c1952439
+Shield of Scorching Reprisal - 8c7caa2a-7c11-4f0b-86a8-b8808057101b
+Shield of Shielding - dfeaa5fd-1f87-4f99-85b0-8f49664d691f
+Studded Shield +1 - badf2418-01ac-410d-931e-72b1dac071c7
+Abdel's Trusted Shield - e308d17c-7278-44c1-b1fc-853ea3cf5c29
+Shield of Devotion - a0bc3295-c01d-405e-8396-e0fa7e1e5340
+Shield of the Undevout - b3571443-403b-431b-b4ba-3d943a500f4b
+Swires' Sledboard - 1cee750f-79c6-4109-8272-d27b97ef02df
+Viconia's Walking Fortress - 4f313dde-14bb-43a2-abdd-07b2eb38b33a
+
+************************************************************************************************************
+
+
+
+
+************ 5.HEADWWEAR ************
+
+Assassin of Bhaal Cowl - d5d22dfc-bba4-4e2c-ba71-c804d3b47919
+Birthright - 76ce9b38-9203-437f-9962-4be4c4ad1193
+Bonespike Helmet - 72152951-3670-4004-b275-6b722c498bbc
+Brimmed Hat - b8bd447c-eef3-441e-9fb8-303b5b926432
+Browbeaten Circlet - 4def305d-0141-4811-b1d1-353d323f5f2a
+Cap of Curing - cfbd013c-f24d-4430-be13-d7bfafd48709
+Cap of Wrath - b2ac96aa-5f04-49fb-800c-ab51a2bdb3c6
+Circle of Bones - d2a4e407-b5de-4f0b-ab7a-75f9bf5041dd
+Circlet - 348b0f52-8960-43e0-ae38-c1d3b1974c3f
+Circlet of Blasting - 3abdbb8a-4701-4397-8fce-7a8dd8a0bb84
+Circlet of Hunting - 1e59513c-a787-4f77-bcef-675ac4199daf
+Circlet of Mental Anguish - 4b3d2d3d-3dd5-4872-af6c-7acb3756b6c7
+Circlet of Psionic Revenge - 8a17f2b1-5c5d-4bb0-8b2e-408e837c4d1f
+Covert Cowl - 8aaf7649-5bee-442a-9192-5e8abd723c55
+Dark Justiciar Helm - 3523b640-e9da-4d89-b031-6ffe1d5fd3ed
+Dark Justiciar Mask - 58968403-4dd6-4611-a7a2-a293ae7cf0b0
+Devilfoil Mask - b2409a86-dc0d-4193-9985-4f11419c64be
+Diadem of Arcane Synergy - f6585fc7-22bb-4e58-b4a6-bbb56e48a86f
+Flaming Fist Helmet - 0466c509-9947-441a-ad51-85ad4f407f38
+Flawed Helldusk Helmet - 6d60fcbb-e7a5-47ad-9cca-44565cbc0856
+Frayed Drow Hood - 85f6aec3-a6df-458c-8ef4-b3fa58d85a56
+Gibus of the Worshipful Servant - 198e801b-b91e-4b78-b8a6-4fe630a6a3f1
+Grymskull Helm - 6b1c4d55-e0d1-4b58-a26d-57d807bca488
+Hat of Fire Acuity - dbd8a255-771c-4c3e-b3d6-65d744b2cbd8
+Hat of Storm Scion's Power - fa68c8ad-67d7-4680-88bc-f0b066e71761
+Hat of the Sharp Caster - 5be5a605-ddeb-4244-ba05-551ec86297fa
+Hat of Uninhibited Kushigo - 4d444e63-152c-48b7-a198-7027fb5904f0
+Haste Helm - 94cc605d-e407-408d-acb6-9e2e31dfb283
+Helmet - 67a87879-533e-4f9b-8274-f5bd37748ace
+Helmet of Arcane Acuity - df71a665-a179-43b3-89ee-2e355166fa9b
+Helmet of Autonomy - a47c13a1-1a8e-4b3b-9cd9-53cf9c7058f0
+Helmet of Grit - d98595e1-0722-4200-ab73-5e88269519fa
+Helmet of Smiting - 0ae1e62c-b36a-4dbc-97fb-e0658b454974
+Holy Lance Helm - 5b3c40c5-b0c0-44b5-9b75-e642069fd2cc
+Hood of the Weave - c5a627ff-7fc5-4cde-81ca-e4fb57cb38d6
+Horns of the Berserker - 271af9f0-409d-4b14-8277-95a36b8dd543
+Ignoble Hat - 90008c9b-ca19-46c1-9c2b-7164983de6da
+Jannath's Hat - 62189421-f3e5-4ebc-927a-26bc0ebf844a
+Key of the Ancients - f4bef44e-57f1-47b5-ab2d-2457ff21c707
+Leather Helmet - c58a1f91-ec1b-49c8-96ab-d94d4be4b584
+Marksmanship Hat - f67b0733-ad73-4d1b-94fd-e3e0236623ca
+Mask of Soul Perception - bfd9ef48-7251-4259-86b0-6646f5f99d72
+Mask of the Shapeshifter - 5d66776d-0650-4512-b300-b2ac38e2be3a
+Old Floppy Hat - 65f78de8-f6aa-4080-84de-73e654b02883
+Pyroquickness Hat - d5e4dce0-4385-4fae-a601-22a11fe0b2af
+Rufflesome Blaggart Hat - 3d3c949f-8fff-4133-b12e-3c739dbd6428
+Scabby Pugilist Circlet - 48920bf4-85b0-44a1-9f6a-0ad8b493fa47
+Shadow of Menzoberranzan - d46206c9-fb4f-44a4-a4f4-f70f8cd2a64c
+Shapeshifter Hat - e3720399-7a78-4073-aff7-cb0fb37b13eb
+Steelwatcher Helmet - c2ef4013-e6d1-48da-99f0-db486c223a90
+The Lifebringer - 3ccc28a3-faa5-4664-a46a-39300b2d3803
+The Pointy Hat - 6c2e4f84-a8f2-4a91-81bf-488b497718a2
+The Shadespell Circlet - f0e42b7e-4d6b-46fb-85d6-d577afc72040
+Warped Headband of Intellect - 8f4876f1-44d9-4bb8-802e-907c6b0a0dba
+Whispering Mask - 73690248-deea-4713-84d6-c1c8fb045869
+Wapira's Crown - e305c00e-a231-41e4-86de-cbb320bafbc8
+
+************************************************************************************************************
+
+
+
+
+************ 6.CLOAKS ************
+
+Cape of the Red Prince - be8f2382-576f-426f-ae90-45544b507e07
+Cindermoth Cloak - 8a31c554-1545-4647-b24d-93cf5d81df18
+Cloak of Cunning Brume - 4b8ea38f-d0c0-4c29-a66f-bea71219f8a3
+Cloak of Displacement - 257aed3e-370d-40b3-b464-de10257dd82b
+Cloak of Elemental Absorption - 811ab129-2fb2-49ed-af29-5042197022fe
+Cloak of Protection - 602f62dd-0fba-4438-ad68-b846f17ac538
+Derivation Cloak - 857d9a3c-5a40-4dfa-a634-99629095248b
+Fleshmelter Cloak - a927e273-3385-4a11-8941-e952d0ddfd38
+Mantle of the Holy Warrior - f1fdb8db-e754-4ea9-b6ce-440db6b776ac
+Nymph Cloak - 6062db99-6719-44e2-9d01-9a99131d1ba7
+Shade-Slayer Cloak - aff94826-0ea4-42e3-8855-aa2002c01b76
+Thunderskin Cloak - c4c5150c-0931-4d9e-b7b2-36f40d56c290
+The Deathstalker Mantle - dff731f7-d6da-403d-80cf-7f3d9cc7345b
+Vivacious Cloak - 62a89e3a-ef88-457a-8219-0cefae6dec92
+Wavemother's Cloak - e36702e9-10e5-4964-b254-7ff0659f9bb5
+
+************************************************************************************************************
+
+
+
+
+************ 7.HANDWEAR ************
+
+Abyss Beckoners - 7ef359b6-79af-4414-99bc-f93bc5eeed77
+Bhaalist Gloves - afd74d05-7c24-45ec-8033-84f365e6ea5f
+Blackguard's Gauntlets - 65c65d78-1786-4a78-9a43-96c19849b6f3
+Bonespike Gloves - 7e32e812-b79d-4bdb-a7c6-ee6778e893ec
+Braindrain Gloves - 0071fe71-ad1e-4be0-9ca3-cdfdc558b571
+Bracers of Defence - 58315437-f06a-4797-a26a-6bbcff80c4fe
+Cerebral Citadel Gloves - 9e90efe2-200a-4923-a597-ddc044e704f2
+Cindersnap Gloves - 761d719f-dade-4f61-9d23-cc378f9d2f0c
+Craterflesh Gloves - 556c4071-7d59-4cb7-ad84-9fa0efcd535f
+Daredevil Gloves - c9f03464-488c-4f3f-aa2f-6d4c8e48a106
+Drow Leather Gloves - f740cc6f-c7dd-4c31-8dbd-04138f59801e
+Dark Displacement Gloves - 48c5fe1f-c058-4b47-9a36-024f89a5b0f7
+Flawed Helldusk Gloves - b673f1dc-d925-4811-a78e-53adcce847e8
+Fleetfingers - df7093d7-efdd-4153-bfb6-b2a6350fb3c2
+Gauntlet of the Tyrant - 6ea2650e-c12b-43d9-873e-f3d426d30d18
+Gauntlets of Frost Giant Strength - 9481aa27-ce9c-414c-84ff-5e974fd64d89
+Gauntlets of Surging Accuracy - 7529f6ba-6fff-4224-bdd9-e10538a96528
+Gemini Gloves - fc4fd633-bc45-4ff4-90e6-2e454f7ceaa0
+Gloves of Archery - 6d84b9e5-e9e4-477c-8d5b-a3f232a4415a
+Gloves of Baneful Striking - 9e259ea7-291f-41bd-b275-cc49edba3bb6
+Gloves of Belligerent Skies - c987b6e4-adcb-47d6-8dfd-6d4d2f15a381
+Gloves of Cinder and Sizzle - 663e4a1a-5f0d-4e2e-8dcf-0fb515fc2e0f
+Gloves of Crushing - a8d15838-5721-4a3f-bfbd-f51c58c2fde3
+Gloves of Dexterity - f3775096-0055-4d35-8cc0-f5765284bc7d
+Gloves of Elemental Assault - af703d3-77d2-4259-9369-f98416be0e2e
+Gloves of Fire Resistance - 9c888908-04d0-4047-bf9d-02d3cecb08d6
+Gloves of Flint and Steel - 88225372-376e-42fb-a028-65ac3d0dd864
+Gloves of Hail of Thorns - 69271c04-ab3d-4efc-ab3c-4ca6c5ec7db3
+Gloves of Heroism - 110144ac-db1d-4db8-a907-92f642086d0d
+Gloves of Missile Snaring - 687cc55b-77a3-4893-a7d7-cfbafdc2737c
+Gloves of Power - d22e2679-aff0-4244-9ed2-7aac981b82cf
+Gloves of Soul Catching - c1342b19-c898-451c-b2e8-6eb6666fe1c2
+Gloves of Thievery - 5a2d9181-8179-46cc-a5f8-d5bae909d8e0
+Gloves of Uninhibited Kushigo - 3e088120-9a4f-4e94-9d1e-23fae8616cd4
+Gloves of the Automaton - 85477bfe-ed0f-45dc-8647-3aa8487cbd99
+Gloves of the Automaton - d10ec0b7-5868-4563-9a34-e1ab72d50269
+Gloves of the Balanced Hands - 7ffce863-d530-4492-a455-a8f11c53d6c3
+Gloves of the Growling Underdog - 1001f28b-5ea3-4257-864c-f60c812aecf0
+Gloves of the Warmaster - 85865321-5feb-447f-92e7-5c04359fe3af
+Gloves of the Duellist - 97e362b2-e2aa-4703-9840-6824d7068334
+Gloves of Winter's Embrace - e6bb26ab-2987-4061-9c5c-764b377f91b8
+Hellrider's Pride - db4d4560-dc72-4d64-b552-5caf442c0927
+Herbalist's Gloves - f3ff7066-f407-41c7-b936-0aff066c08e4
+Ichorous Gloves - ca7a96f9-594c-4ed3-afd3-aed0094c383c
+Jhannyl's Gloves - 79741a3c-730a-4e9d-a3fe-ec39df64af0f
+Knock Knuckle Gloves - 31809893-c293-4c89-b6b6-437a3c49b604
+Leather Gloves - 6c9f69a8-7cf7-4b57-b4e0-64cfaa04fd05
+Leather Gloves - 8e34fd76-8b6d-48a5-89e3-942289bec31e
+Legacy of the Masters - c9ea7679-d30a-481f-b45b-c0427d569ec7
+Luminous Gloves - e8a72355-b81f-484e-bc7d-945ec81c04a3
+Martial Exertion Gloves - 2c6da257-8ca8-4e7c-847d-3e03bb32f260
+Metallic Gloves - 1dcdf52e-b596-4e3a-8d1c-8fff17ed8c2c
+Metallic Gloves - c1531ce8-a2ce-4606-9cb7-5ed6d56b69a6
+Nimblefinger Gloves - fbc9b0ad-f31e-4cdc-a1cc-1e2204cb46c5
+Poisoner's Gloves - 49c8234e-3134-40f0-8001-e221114b1d2a
+Quickspell Gloves - 4b1b3dcd-dcbc-4a93-a848-f16510d76d82
+Raven Gloves - ce92a056-0754-4e8a-b3b7-5d6cbb844c65
+Reason's Grasp - b51863cc-f8de-4945-a062-6bda2a35cdbc
+Seraphic Pugilist Gloves - 59fcc2e4-5897-4e0d-a9ca-4d9234f85af8
+Servitor of the Black Hand Gloves - 106d74f9-5341-478e-a8d5-feaef5624675
+Snow-Dusted Monastery Gloves - 6ba63a43-5322-4a03-b82f-46eb6bf9cf4f
+Spellmight Gloves - c187103e-7f51-49f7-b3b7-72ec78e4a44f
+Spellseeking Gloves - 98c60a0f-a58b-4dc1-99ca-06b9db0cd42f
+Stalker Gloves - dd99248c-fe42-4d07-9861-853e9291ea51
+Swordmaster Gloves - 66e20a58-4bc3-4e17-a13e-510a19b23c33
+The Reviving Hands - 0e94335a-bf4d-47b9-bde7-85ee2f01102f
+The Sparkle Hands - a0bbe602-ffc1-45f1-9a09-de7d11575465
+Thermoarcanic Gloves - aaf703d3-77d2-4259-9369-f98416be0e2e
+Unwanted Masterwork Gauntlets - b337cd63-d206-4229-84fd-4b77809f7eb3
+Winter's Clutches - e6bb26ab-2987-4061-9c5c-764b377f91b8
+Wondrous Gloves - afe6c7a2-fdd7-4cca-9441-e0b3a2237f5f
+
+************************************************************************************************************
+
+
+
+
+************ 8.FOOTWEAR ************
+
+Acrobat Shoes - 32b1a84f-2e32-4249-8b19-ecaa7f279cb0
+Blackguard's Greaves - bc3c8375-bad5-4f02-b1f3-2261cea690aa
+Bonespike Boots - 23806fd3-f5f6-4ff3-826d-054afe03b7c0
+Boots of Aid and Comfort - bc090f4e-ff74-49f6-a3f2-7eb561f57436
+Boots of Apparent Death - 8838eb53-ed3d-4d64-9fe7-a82ab7249c18
+Boots of Brilliance - a7ce200c-ab1a-4d49-bf7d-c6894b1e5b06
+Boots of Elemental Momentum - cf8e6826-9133-425a-be21-79a41e1f7add
+Boots of Persistence - f3d8ff49-eaac-4c10-9421-3fd2180c7b39
+Boots of Psionic Movement - 18919a04-67a0-4321-82ff-ce2b64a27589
+Boots of Speed - 21ac01b5-93c7-42b8-9b84-44ea01c2bae1
+Boots of Speed - 8b22d15a-85bb-4c8d-90cf-a773fc451eac
+Boots of Stormy Clamour - 3908725d-29d1-4c9a-be46-4e03c8c65238
+Boots of Striding - 09dcd9c8-07c7-46a5-a006-c179e50079d1
+Boots of Striding - 8770f821-38bc-41cc-aae9-02988d46df02
+Boots of Uninhibited Kushigo - 1cd85fa0-b46a-43c6-88d2-e90ad4e73cf7
+Cinder Shoes - eff1515c-4612-4e23-9b50-71f318a2f117
+Dark Justiciar Boots - e33850ba-f697-40f5-abec-2951077f2cef
+Disintegrating Night Walkers - ac9145d1-31d0-4aa3-8755-62cc85dad22b
+Evasive Shoes - 119f753a-8b06-44d8-bb9a-8a307f6032da
+Featherlight Boots - e3ab8ed8-de3a-466a-ad85-319bdea94bde
+Grovetender Boots - 7de51e0b-cb9d-4279-9bc5-b0d85dce4cf6
+Githyanki Boots - 319c625a-cfb7-4e44-ac3f-370a00c0d4ef
+Hardily Constructed Boots - 9c16f3c5-f25a-49ee-b24c-7e974334939f
+Helldusk Boots - bc82f909-ade5-4ada-9b94-cec7ca1d4a68
+Karlach's Boots - 20f935fc-c55b-4841-9f14-1bd71c4bf3c8
+Leather Boots - 2577a332-8ad2-4e54-b52b-f4f7cc5823a1
+Leather Boots - 969bab00-b269-46a5-a7e9-dd4887814719
+Linebreaker Boots - edb7385a-e4d4-4fb7-ad9f-a9910e4b9e97
+Metallic Boots - 689e8d3e-b79b-417b-8cd2-9d08b2f5e618
+Monastic Boots - 2c49ed8d-6ca0-45a9-8d2e-a93fe29d3fe2
+Mystra's Grace - baae9783-dcd3-4d6b-bba3-86faf2fe4c8e
+Simple Boots - 97f37571-35e8-4cc8-8b0d-ff92d20ae0bb
+Slinging Shoes - 9b94fd74-bcee-4d30-8862-0a18ae65541b
+Spaceshunt Boots - ae4af670-5674-4fed-bbf9-4083f06519b0
+Spiderstep Boots - d0666101-d24e-4d2b-bc63-63f67532b38c
+Springstep Boots - 1a6825cb-95d5-4542-b018-deb48d936b73
+Swiresy Shoes - b9872a9c-d653-4108-9060-21d6d8ec511a
+The Speedy Lightfeet - 66be4e91-933b-44e8-a73c-3b8a9c6b14a8
+The Watersparkers - fc9104ab-b61c-4481-8402-cecb13baf30f
+Tyrannical Jackboots - 48408219-2ab9-4f08-8cb8-2d955fb3dae8
+Unwanted Masterwork Greaves - df040e30-b424-4a89-be1b-83ffd57eb5a1
+Varsh Ko'kuu's Boots - 3462aa18-bb93-403c-b28d-9841c147787f
+Vital Conduit Boots - 306d3417-5e12-499e-832e-86b602a075de
+
+************************************************************************************************************
+
+
+
+
+************ 9.AMULETS ************
+
+Aberration Hunters' Amulet - 1310524f-408e-405d-8d75-7a6d3cb18bcc
+Absolute Confidence Amulet - b4f88dd8-0a5b-4641-937e-a882bebc26b1
+Absolute's Talisman - 95b04c9c-8b58-44c5-bf1f-7d4d1027d57e
+Amulet of Bhaal - 16a632e2-45b1-4ff1-8250-513eb271abea
+Amulet of Branding - 894a6847-3d80-4368-86fb-354c8cb23525
+Amulet of Elemental Torment - c1cb7388-bd2f-4cc7-8305-7d7a0651874f
+Amulet of Greater Health - 5ed63342-30c9-456d-9a57-a88c8596c0c9
+Amulet of Misty Step - 338848e7-b2c6-4f97-879b-cb3439b4f959
+Amulet of Restoration - b648ee98-f648-411b-be7e-6c50ca9b463c
+Amulet of Selûne's Chosen - e7bf966a-b611-4c36-89fe-0a3b28393d97
+Amulet of Silvanus - c0b04c1c-afb5-4f02-b832-e12043a2d2c4
+Amulet of the Drunkard - b6510e39-54fc-45fa-a49e-e7d8cbfdafe6
+Amulet of the Harpers - ddc9ac0b-8e68-422b-8d9d-c081629ab4ad
+Amulet of the Unworthy - b96d16dc-da98-4108-9a0e-5e55720dbf5c
+Amulet of Windrider - 489290fd-c517-4c26-83e8-db102d8db25b
+Beastmaster's Chain - 01d74aea-9e8a-4d03-9b55-e43458b61163
+Broodmother's Revenge - 21abc023-343a-4693-b63f-3ba07a231864
+Champion's Chain - f6963e1e-b95a-496d-9d57-d4ad79a4394c
+Envoy's Amulet - 5556b0c1-5b0a-47f9-8bc6-91c8f293f83e
+Fey Semblance Amulet - e4d2562d-2789-4598-befe-d46b255f551a
+Fireheart - ad278f33-7c10-4779-88fc-d1448f25ae72
+Frost Prince - 6cc1bd88-9ff8-42bc-ac63-495d0cc027e4
+Hammergrim Mist Amulet - 17a817b0-ea8b-492c-8925-402ad5cd84d5
+Ilmater's Aid - 49a3a5ac-4e04-497a-a721-1decf89ea077
+Khalid's Gift - 64b31781-85f6-4266-8fac-430d79bcbdb4
+Komira's Locket - be745c7b-f5a0-48cb-a7bd-3b7713f6e702
+Magic Amulet - 49c2d3d1-f489-4433-8f9a-bdef766ee9f1
+Necklace of Elemental Augmentation - a92cec2f-3a86-4aa1-a7e9-1d6dc9e12957
+Pearl of Power Amulet - 6b8fcc06-fa6a-4a11-8318-075d90d8e909
+Periapt of Wound Closure - 716e94de-130b-4f54-84d9-a14fc60adcfb
+Psychic Spark - 4a9f0479-954f-486c-9534-d7d72c11f919
+Shar's Temptation - 9c10ac72-da07-4aca-a2ce-3d04d1ce3485
+Silver Pendant - 8b5fb90f-f957-4a1a-b8eb-2baff0c3b40b
+Silver Pendant - 1df12296-498c-494c-b639-f103b63156a3
+Spineshudder Amulet - 203321f7-74f6-428c-90be-5d8b12da23ec
+Strange Tendril Amulet - 757d37d1-a225-448f-a25b-02daffbdec97
+Surgeon's Subjugation Amulet - d6db1ae8-8e8e-49d1-8968-5cdb7fa3a02a
+Tarnished Charm - 6d02f3e8-9c0e-49ce-993e-035e433d02b2
+The Amulet of Lost Voices - e89d55a7-9a68-445a-bac9-b4a02654f0c7
+The Blast Pendant - c2bbb262-34ee-4483-a0f8-f72cb7794ff1
+The Ever-Seeing Eye - 3af0e44d-309a-4a42-818a-288af77a7350
+Uncovered Mysteries - cfbda235-8cb7-4ee7-bd94-b9a2249ed82e
+Unflinching Protector Amulet - ed529c1b-abb0-4efa-8f5b-c4ed8560dfd3
+
+************************************************************************************************************
+
+
+
+
+************ 10.RINGS ************
+
+Band of the Mystic Scoundrel - 5b74c9d8-cb88-4a29-99c4-25d98c7d88f7
+Bracing Band - c714fc94-eeaf-4622-9375-545261867514
+Callous Glow Ring - afdcde80-f976-4781-86be-75a5fb0ae05e
+Caustic Band - 463b0a81-1fc3-4db1-bafe-a915f9a8e028
+Coruscation Ring - 3bd041cf-bff5-4464-9002-5c17b957b3c7
+Crusher's Ring - 3023d5a5-14f0-4549-8ff2-1f34336c243c
+Djinni Ring - 258f4d35-959c-497b-a38a-df3a1e71f3a0
+Explorer's Ring - 046598e3-8cb4-497c-bfd2-866ff88b50db
+Family Ring - d337a7fe-dcbf-446c-a595-00b30f8f2e58
+Guiding Light - 70ad7889-e1e2-4c2f-980f-28eaa02c2022
+Mage's Friend - 4b6d7c53-43b5-4c17-8139-732ca0fc2972
+Poisoner's Ring - c4f364cc-daa1-4783-a474-b7ff394d2157
+Ring of Absolute Force - c7a58f48-f24f-4139-b0f0-8b12e1bf074e
+Ring of Arcane Synergy - fa7b47e8-d411-4379-b68a-8ceb26891265
+Ring of Colour Spray - eadad0c4-d4a5-45cb-b4c3-e16a9b3ebe0a
+Ring of Elemental Infusion - 9ce563ca-82b0-4c28-bd82-8640fd0a5be3
+Ring of Evasion - 57e350dc-5156-49a7-8994-0f6a8eca08ea
+Ring of Exalted Marrow - 6594c1e3-0868-4efd-a93c-b6f4b3bd034d
+Ring of Feywild Sparks - a4813d7b-2ff0-488b-8152-a27cb75e8d8e
+Ring of Fire - 146e88ea-85ca-469b-9ce0-60be52613f2d
+Ring of Flinging - 4aba2198-98f9-4ec8-8a1b-bbd9ed864856
+Ring of Free Action - 50379f58-7892-44cb-be6e-146a60070055
+Ring of Jumping - cddea208-03cc-4b67-969d-a038bb233e5d
+Ring of Mental Inhibition - 70893b6f-b0de-4f4e-af9f-f10e2c09bd1e
+Ring of Mind-Shielding - c8f05ff8-58f9-49f9-8ea7-abda1fea27d6
+Ring of Poison Resistance - 35688051-90df-40e1-890b-c3cde2c82fde
+Ring of Protection - 1352a999-76cc-46c5-a67a-26edc2011911
+Ring of Protection - bfeab8b5-8f50-470c-b2f4-0a45f8b331d3
+Ring of Regeneration - d6ee2594-7373-4fed-a167-f9d95cb4ecfd
+Ring of Salving - a6fe2fbc-b0f8-4c35-a3ab-d5deb6aa2978
+Ring of Self Immolation - 69362d04-4569-4ec8-8946-c20ee2dc1490
+Ring of Shadows - c0bce741-9829-49c5-9778-426f2b00a642
+Ring of Spiteful Thunder - 5c05ff73-9d0d-4d58-b93a-e4b448a1e388
+Ring of Twilight - 252584f5-e8b8-4ad8-8776-b3a2bb9e0823
+Shadow-Cloaked Ring - 9297096d-98d6-4637-9b7c-843af752505e
+Shapeshifter's Boon Ring - 6853e585-e9c7-4f26-918e-995342b19d1a
+Smuggler's Ring - 1b47637d-fdea-431f-a828-7ff8d9b4341e
+Snowburst Ring - ee8d0bb8-ee1c-437c-b8e0-a9671b865c48
+Spurred Band - 699135e9-8932-4bde-8a17-8be5e11d873f
+Strange Conduit Ring - c4194cee-6f9a-4c5e-8327-816d44c86316
+Sunwalker's Gift - e8b6eb1d-c4f2-4b46-979c-ad3b9469030e
+Tarnished Ring - ecf4a8a4-7859-4a82-8c08-0c9526f29500
+The Sparkswall - a72120e6-aa1c-4a2b-89ae-a0469fb5b088
+The Whispering Promise - 4aef9bb0-38a8-428e-8b87-6e462d612dd6
+True Love's Caress - bf59a1e5-e3d1-48f1-9970-4aa3fdcaa780
+True Love's Embrace - 7becedf0-a90a-40d3-a726-e4e671f3d73f
+Burnished Ring - 7902afa6-2b17-4052-beb2-2a1bced5c6e6
+Crypt Lord Ring - e86c0cbb-9791-4cc7-95ba-9821902119fa
+Killer's Sweetheart - 2f2d4bf3-6a14-43f5-81fe-e14aa9871215
+Orphic Ring - 1789fae7-b4c9-48a6-8886-cd96687bf45f
+
+************************************************************************************************************
+
+
+
+
+************ 11.INSTRUMENTS ************
+
+Lute - 8f98a7e7-c773-4b58-9127-5cf79b9206e9
+Flute - 848ad8dc-59f3-464b-b8b2-95eab6022446
+Hand Drum - 4c9ea428-7679-434c-9679-071847c648a6
+Lyre - 13739f15-7366-4d7f-9926-991e98b9e964
+Violin - aca5d144-773b-42ba-aca1-6903c60c418c
+Dostrealt's Piccolo - 09de8b63-12ad-43d5-a2cf-b9b32692e777
+Falataeric Cli Lyre - 3542b820-713a-4dd3-9cc8-35586f4e7f46
+Glimmergad's Selgaunt Fiddle - 209c50b2-1e39-4484-905d-588741eba320
+Kiam Goda's Kilat Drum - ab846656-a9f7-4ed5-93ae-85a8df39b5ac
+Stolyarof's Table Lute - 59a1ed6f-b530-44b2-972e-2a73e02080cb
+Lute of the Merryweather Bard - 35a38ec0-8902-46bf-ae84-f2361e713b7e
+Spider's Lyre - 98282bec-aeaa-4490-ae43-0c27bed58c74
+
+************************************************************************************************************
+
+
+
+
+************ 12.AMMUNITION ************
+
+Arrow of Acid - 0bfb72d2-0e8e-4d16-aeae-3159b0d4b195
+Arrow of Fire - 9a142fae-bcea-4e88-a407-16d3b27468b9
+Arrow of Ice - 2e297d80-823b-4200-926e-6ca23f488090
+Arrow of Lightning - 1b0f095b-cb22-4bf9-aecf-4e5a26504ec8
+Arrow of Beast Slaying - 86e46f4a-6789-47ef-ab85-449ca36b1b20
+Arrow of Construct Slaying - 86a4dd98-80b1-4778-b498-e3a49b1dec37
+Arrow of Darkness - 844c19ce-9e8f-4119-8856-8fa2029461b1
+Arrow of Elemental Slaying - 0d81014f-cc7f-4c79-9477-b8cda9738c72
+Arrow of Fiend Slaying - 04ba10a0-ca33-47e6-9810-0b7234700c4a
+Arrow of Ilmater - a61c8248-1595-450f-bcc9-2ed1d9853739
+Arrow of Monstrosity Slaying - d7645507-6c0c-48ff-aa1b-57092d139f22
+Arrow of Roaring Thunder - a0985797-4ec7-475c-8e11-0361e387f39a
+Arrow of Undead Slaying - ae58df6b-0fc9-48ff-9d36-52bf9bc22204
+Arrow of Arcane Interference - c9871e4a-633e-4b81-9115-8ffd0f69ee6a
+Arrow of Many Targets - b11b3f7f-d8ec-41db-93b9-24474aea31e3
+Arrow of Salving - ac23602b-ceee-4ef3-a6b8-601e40a5aa6f
+Arrow of Transposition - 4cf7bbbb-1d1b-4bec-b82a-cdc3cce33f7a
+Smokepowder Arrow - 0788a2bb-c732-4ebb-abf9-2ef150f509be
+Arrow of Aberration Slaying - 1545f451-3fc5-4c1b-970e-572f9ace630c
+Arrow of Dragon Slaying - 437835b4-0d13-47b7-8aca-5da4f948783b
+Arrow of Humanoid Slaying - 3c2c6a61-e348-4222-9ba3-58a4d49d558c
+
+************************************************************************************************************
+
+
+
+
+************ 13.CAMP SUPPLIES ************
+
+Supply Pack - 398e7328-ce90-4c02-94a2-93341fac499a
+Heavy Supply Pack - a24a2ca2-a213-424c-833d-47c79934c0ce
+Arabellan Dry - ae82c350-9224-4978-ac27-c31b13b5a7ad
+Pork Loin - 52640540-c541-413d-8606-d0c83d670fe2
+
+************************************************************************************************************
+
+
+
+
+************ 14.COATINGS ************
+
+Basic Poison - 28645376-e6e8-436a-8e9a-c62877fae07d
+Simple Toxin - 8b5f7965-6cd1-42c1-8449-c6562a270ad9
+Arsonist's Oil - bd118cc0-eb90-412d-8229-6749f42df5c6
+Diluted Oil of Sharpness - 955d3880-3d10-4fb5-845b-96b6b52aef9a
+Drow Poison - f528a334-bdb3-4cf1-b74c-0e08942daeb1
+Oil of Accuracy - 3383e241-4d1c-41ad-bc81-fc548fa9062d
+Oil of Diminution - 01985597-fceb-47d1-93ae-9cc9928ed9e7
+Serpent Fang Toxin - b0385b93-f525-4740-8126-471a76fa31a2
+Wizardsbane Oil - e4f7cb7f-1cb3-411b-b078-f4ac25b750a8
+Crawler Mucus - 5865caed-4a5d-45b7-b365-1113334a8e7b
+Karabasan's Poison - a5d93495-c01c-4dd4-928c-3793f620121f
+Malice - d990fefe-e0f3-46ba-915e-35aebc6c6599
+Oil of Bane - 08789f74-3f63-4e7c-8288-b8d873542c15
+Oil of Combustion - bb750807-895b-468d-81e1-4378797d11ca
+Oil of Freezing - 3e4ce3e8-fbae-4e78-9198-e4c15485a928
+Wyvern Toxin - eca393b0-3f8e-4862-814b-9e236a0d4129
+Purple Worm Toxin - 56e531e9-78e4-430b-bc98-611c1b1ccd08
+Thisobald's Brewed-Up Bellyglummer - 6db9ed3d-2d72-43ad-a2b8-02365728f29f
+
+************************************************************************************************************
+
+
+
+
+************ 15.DYES ************
+
+Blue Dye - a4c2594e-33a6-49b2-ab6f-e992a3e0257e
+Green Dye - e6f417bd-9d84-416f-8c96-5a6917977b77
+Light Blue Dye - a94ac1cd-96c9-4775-8dcd-c2b581bfeb50
+Muddy Red Dye - 6904ea3d-89b6-4db7-a0bc-d890423e9312
+Ocean Dye - 54cd5913-5226-4143-9186-6c1a8499de1c
+Orange Dye - 1bb2ba7b-1ac3-4c2e-bcd3-85886d294204
+Pale Green Dye - 6d90deb8-8df3-4a6f-b31f-f13cf2eb68f9
+Pale Orange Dye - 84f7b0a1-8840-47a1-a27a-1ac79e383520
+Purple Dye - fecebc29-385d-4bef-a18a-79705fb0ecf3
+Red Dye - 809f228e-8d2b-46b8-8a33-51181505bc61
+Sea Green Dye - b702ddc5-f4fc-4976-adc4-18a8ddaab8d5
+Swamp Green Dye - ad60be55-7a95-4dcb-ae55-908a97f9955a
+Yellow Dye - 09e48b43-f567-4acc-b98d-0c86c1396084
+Baby Blue and Gold Dye - 1dec170b-101f-457b-b22d-8d38c45168c7
+Black and Azure Dye - 02bb51c0-00e5-408c-8e11-8de7b9580c04
+Black and Furnace Red Dye - bb108620-186f-4a00-b7de-af9329d5497b
+Bloody Plum Dye - 2292d37f-7cb2-4458-83c6-1f2e48ffa23e
+Brown Alabaster Dye - 3336e3a5-0be1-407d-9c37-01536bb2e6c5
+Black and Jade Green Dye - 94ef7170-1c1d-489a-9c18-55209d864e3a#
+Black and Summer Green Dye - 81512e6c-dbe4-451c-b5cc-7268656444c1
+Deep Lilac Dye - 7ac1bb07-e494-42d2-bb8d-6bf9e553a52a
+Harlequin Black and White Dye - ffdb4490-cbaf-4eac-97f8-893564d7ead9
+Indigo Dye - 5adba582-b552-4850-9be9-c6e28f656675
+Lavender Dye - 83cde47b-9e15-4ea5-98f4-4efd9ce93861
+Lime, Lemon, and Lichen Dye - 43da55c8-55b7-41c6-9a44-3dd6843875f8
+Mellow Fruit Dye - 2cd56a6a-35bb-417c-9eb6-d78bbe73d3cc
+Pale Pink Dye - 48a27277-7c18-49fe-9124-899919e162bc
+Pink and Leaf Green Dye - 78f41a7b-4742-419d-a0ac-b9a90a9e198e
+Sage Green Dye - a13f6fad-bca8-40c0-b5b1-592832c73050
+White and Scarlet Dye - f42e3c96-e622-4d3a-97da-ce5a939feb3c
+Boreal Blue Dye - 17f6e66e-1c23-41d2-9370-3bd9a5a90b4a
+Cobalt Dye - eedbd9cc-5072-47fd-90a6-36a24c435620
+Custard and Pink Rose Dye - 23899dcd-8f27-4144-b29d-ae61eaacd8c3
+Dark Amethyst Dye - 808cd643-ac73-415c-8ed8-0a81b8b71dd8
+Drake General Dye - dfb0bd5d-e4ed-4bd3-bcfe-45195260e7dc
+Faewild Green and Dun Dye - ea46200e-001b-45a1-b1d9-20920e747ba2
+Gorgeous Maroon Dye - 10e79bfb-c448-4af4-a153-bf3d19f83c62
+Jet and Pink Rose Dye - db4761b2-cce8-4d6d-86ec-5cf0924a5f4c
+Lush Burgundy - 51cd678b-6a27-490d-b4d1-17cc89a32e40
+Peach and Apricot Dye - 0e339e21-df58-4e46-a263-e91d4ed19dc9
+Sinful Red on Bone White - 1d0d3883-6196-4ccd-8a49-8e4fb84f6c6b
+
+************************************************************************************************************
+
+
+
+
+************ 16.ELIXIERS ************
+
+Elixir of Bloodlust - 45a775f8-2cf9-440d-b9eb-4ee5f17efca8
+Elixir of Darkvision - 0f2ccca6-3ce8-4271-aec0-820f6581c551
+Elixir of Fire Resistance - 2608c096-a0f5-4172-ad04-c1b170e10d95
+Elixir of Heroism - bb27cc17-5af9-4d53-818b-3e620f3f59f2
+Elixir of Lightning Resistance - 05257244-ab59-4eab-9745-d1fea7b8cd10
+Elixir of Peerless Focus - 45cdcf69-bfd2-4311-a883-3f3631ab3959
+Elixir of Poison Resistance - ae28b14c-0881-45fe-8237-9fcb1c951d3d
+Elixir of the Colossus - 0aacb1f9-116a-45ec-9b0c-cb436301d4b2
+Elixir of Vigilance - 17066367-7b64-402e-951d-9dcc1407c278
+Elixir of Battlemage's Power - 7d1699d9-c3fa-4761-9718-28230f78420b
+Elixir of Cloud Giant Strength - e6490cc8-7f81-4aac-95e8-a58ce5e88a31
+Elixir of Guileful Movement - b8a2f9e4-3b5e-4418-af05-5ca3cd40dd71
+Elixir of Necrotic Resistance - f3c0aefb-a399-42c6-8d85-7fdceb6d18f5
+Elixir of See Invisibility - d106106a-3905-4acb-a24a-764940b61d9c
+Elixir of Viciousness - 44cd95a7-4791-4ace-bea0-a5ca4421171b
+Superior Elixir of Arcane Cultivation - fb16d5a8-866f-4c17-9591-0df1372b49c9
+Tadpole Elixir - d44a454c-3a09-4b93-b982-79f7ee019703
+Elixir of Psychic Resistance - 164ac6f3-8f93-4d74-9f72-e7c49723dedb
+Supreme Elixir of Arcane Cultivation - 4f17f210-9cde-4dad-80b5-fc4f9ddb1e1f
+Elixir of Acid Resistance - 491921dd-5c64-45da-a150-7ff7030705f7
+Elixir of Cold Resistance - ce8a15ef-be30-4af1-9ecb-ebfcf8b637a9
+Elixir of Force Resistance - 71efff8a-d8fe-4aeb-8ea6-22d076021fca
+Elixir of Hill Giant Strength - c69fb092-2f4f-4688-82b6-7d92405626b1
+Elixir of Radiant Resistance - 58142e85-57d4-4bdf-b7f1-04f5804bcce6
+Elixir of Thunder Resistance - 1ada79f3-5993-4be2-908e-d397c395905a
+Elixir of Arcane Cultivation - 6f328fc5-6f54-4aad-959d-0825290a2763
+Greater Elixir of Arcane Cultivation - 8c7656f5-507a-4cee-8e15-320c968539f0
+Elixir of Barkskin - cc1a8802-675a-426b-a791-ec1d5a5b6328
+
+************************************************************************************************************
+
+
+
+
+************ 17.GRENADES ************
+
+Acid Vial - 3850ec1a-d951-45b7-9363-dc82e20bd28a
+Alchemist's Fire - 0b1aa718-fe45-4e4c-8811-ced51c581075
+Caustic Bulb - 1fd5d25c-806e-44ea-9f52-20df63a44e98
+Grease Bottle - e2968a2e-bc83-4d50-99ef-39ce78d2d630
+Haste Spore Flask - b09296f1-2bc3-422e-8735-c13e83ac8801
+Hearthlight Bomb - c3236e6e-21e4-4e39-a5b4-fda105d8ce3f
+Holy Water - b878380f-7248-4b06-83f8-2d26055497c8
+Oil Flask - 91947f48-4368-4794-8429-2f57172dc53d
+Scrap and Shrapnel Grenade - 21756f85-a506-4e80-bdec-50bdbcbacab4
+Smokepowder Bomb - 278271f9-3fbc-4cf7-a5dc-b36527f521b2
+Spiked Bulb - 249ff64e-818b-4dc8-919b-7f297f64a2a3
+Void Bulb - 10b6acda-aa4e-46b1-aa9a-e45ab914a28d
+Web Grenade - a4d98266-948b-4467-96cd-6a316f37ceda
+Fungal Bamboozler - cbc47f2b-b88a-4bd8-99cd-aacc2dc2ea44
+Haste Spore Grenade - 6008231b-9f5a-44f6-8050-14586b7626fd
+Noxious Spore Grenade - 9320005f-18c6-4c2b-be7f-e168d3b15573
+Flashblinder - 5e282d02-6a10-44cb-9737-9d52aab0701c
+Smokepowder Satchel - 08c75e58-6e70-469a-a22e-44c184995e6c
+Surprise-Based Teddy Bear - e077ef28-5de9-439d-bbaf-59536585c938
+Runepowder Vial - 9220d896-4ff3-430f-9523-00d2a4dfbc17
+Flammable Slime Bomb - a0b56e94-bd59-4cfd-af1b-bb07ff95f931
+Hag's Bane - df5f8cbf-42c5-4c0d-a0ec-ce5046474d8e
+Orthon Explosive - b9eeaebb-9b00-4552-940f-5d829a66e8cb
+Orthonic Handbomb - 29d32b36-390f-4fe8-b27b-931393d76c2a
+Phase Optimizer - f36d0687-46e4-4899-930e-8f635e50948e
+Poisonous Slime Bomb - dfafe6b2-fa8a-49c2-bf93-1966736a7ce9
+Reflectoguard - e5544395-3752-463c-80a8-e9b9b7ed1263
+Brilliant Retort - 11f7c9b6-6210-44f2-ae59-2f61f6ad7563
+Iron Flask - 369c04b5-992b-4bde-8451-1eac0a3376ea
+
+************************************************************************************************************
+
+
+
+
+************ 18.POTIONS ************
+
+Potion of Healing - d47006e9-8a51-453d-b200-9e0d42e9bbab
+Potion of Greater Healing - e3b95c96-dc26-40fe-bfc0-baa05e1abd20
+Potion of Superior Healing - df4f3495-abaf-4732-b82f-55bcccd561db
+Potion of Supreme Healing - 7d78f227-e8d4-486d-8121-25cf0bee751d
+Antidote - f0c7d8bb-85e9-4937-96bb-49ba69d28631
+Basilisk Oil - 212ca846-4766-4370-8847-454e59751598
+Potion of Animal Speaking - 447ee8a9-9319-4758-9dc7-2d8ba94e45b5
+Potion of Feather Fall - 179cfdd4-40ef-4f5c-ba6e-8c13f20aadc9
+Potion of Gaseous Form - 0138e3a4-4576-45a8-8592-85fa9adaee59
+Potion of Glorious Vaulting - 7406ffa4-930c-437f-b201-57b951e5165f
+Potion of Mind Reading - 91da7fe8-a5f7-4132-9096-e8da4916a42e
+Potion of Sleep - 7090a500-c392-4566-a79f-0c9453323bc8
+Potion of Vitality - 0df06118-c4c3-4521-a6f5-f94ead4abb6c
+Potion of Speed - ad9f3f24-d755-48b6-aa7b-c34da068209f
+Remedial Potion - ae9a9360-7cbe-4f72-8bea-1dd5747c180d
+Potion of Angelic Reprieve - b0ff8d30-5825-49d4-8cd4-ebf3a3d0a024
+Potion of Flying - 8b870692-8491-4f1b-9b5c-58cb0b47a62b
+Potion of Invisibility - 809d5026-4896-4b3a-986e-95da58da77e2
+Potion of Angelic Slumber - 4d801c1a-691e-47c8-88e7-78367b4e2c8e
+
+************************************************************************************************************
+
+
+
+
+************ 19.SCROLLS ************
+
+Scroll of Darkvision - 0d737a55-c337-4e8f-b31f-a17273099013
+Scroll of Detect Thoughts - 126cc673-1151-4113-b1bf-98457233441b
+Scroll of Feather Fall - 82cbfcd2-cf80-4acd-9f1f-51835693b0e6
+Scroll of Jump - e1f15103-bb95-476f-8b09-091f51b2f645
+Scroll of Dimension Door - 75452ba5-5758-417c-b661-8832eb64df66
+Scroll of Artistry of War - 21e67b0e-913d-411a-9046-6c54e8d0bf53
+Scroll of Summon Quasit - f912ea9b-0e2f-45b4-b12d-fa6ec89dc758
+Scroll of Bestial Communion - b627f83f-8533-4440-95a0-ad2f319fe4ed
+Scroll of Bone Chill - 79faf049-d503-46eb-a018-69e1975777d7
+Scroll of Fire Bolt - fdfe5d75-0e8b-47f8-b128-d57081cb8981
+Scroll of Ray of Frost - f6cbfbb3-7eab-4f78-afde-073756c4e26d
+Scroll of Shocking Grasp - a9ced623-a25d-4d2b-bca5-644b7230c869
+Scroll of Animal Friendship - 3d992632-dc98-43b1-85e5-b59ba5a6aa9a
+Scroll of Burning Hands - bc00df72-3c98-4bf2-9650-28e08f79b57c
+Scroll of Charm Person - 2315f935-a188-4665-9ae0-986c7a9b0021
+Scroll of Chromatic Orb - d338fcb9-aaf5-48b1-8333-2dd4d9f70e1b
+Scroll of Chromatic Orb - c6aef37e-bc4d-46e7-a963-15b4cd8163bd
+Scroll of Colour Spray - c7c92bc3-e856-4403-b509-9b0491f455cd
+Scroll of Disguise Self - b3376ca4-393c-4191-aa67-a02c94d6a236
+Scroll of Expeditious Retreat - eedf0539-6a47-480e-8b23-a133b222241f
+Scroll of False Life - 7d76665a-3b9e-4495-a3c6-a05340704194
+Scroll of Find Familiar - fb975b01-40d5-49a3-b60a-d2f13a1f8009
+Scroll of Fog Cloud - dcb51bec-90bd-4d0a-942d-72034782bdf5
+Scroll of Goodberry - dff353d0-c1d4-43af-8664-bf08a9ffae07
+Scroll of Grease - 094c9b7f-0b7d-4813-92ea-7267afb62b07
+Scroll of Ice Knife - f26320fa-9a25-4f79-80fc-e356268cf474
+Scroll of Longstrider - 82370a33-5243-4fad-9880-b0a8c2b5a225
+Scroll of Mage Armour - 2ccab07d-0ccb-45e6-8f43-8ffb6a62da11
+Scroll of Magic Missile - 945cd4f0-991b-4663-b72e-790d49fee27e
+Scroll of Protection from Evil and Good - 03771ebc-83ca-45d2-8bd5-d382b6d6d824
+Scroll of Ray of Sickness - 22ef638a-206f-4874-8f68-e2a378df1158
+Scroll of Sleep - 2ce88bf0-fe06-46bd-b71e-18bc6dc8eb9d
+Scroll of Tasha's Hideous Laughter - 8bc1a0d8-af28-45b2-b1ca-1f15e3c47b1b
+Scroll of Thunderwave - 94caa680-50b8-46b1-b775-19150d783b2f
+Scroll of Witch Bolt - e69f52a4-3d86-4f08-a9b4-c70ba4cc3070
+Scroll of Aid - 3e85f140-2284-430b-b11f-2126cd85b567
+Scroll of Arcane Lock - 05da1a09-2d22-4299-b4a0-c4538a91f91c
+Scroll of Blindness - 2c6caac0-1684-4324-abba-0b849a9add74
+Scroll of Blur - a8b34fd5-d643-49ad-98d3-d5841492b338
+Scroll of Cloud of Daggers - 33421d4f-1cac-4196-a85e-0b07bcb3ecf2
+Scroll of Crown of Madness - 701a7df0-728e-494a-ab2f-146aed4e8c7f
+Scroll of Darkness - caa812b9-9362-4c38-aef0-e3f6eb288dba
+Scroll of Enlarge - 7c4c3ae1-26ac-4765-a5d5-586976e0e458
+Scroll of Flame Blade - a6d216e9-c9e9-4310-b155-0e4f50682377
+Scroll of Flaming Sphere - 0922de82-149f-4cac-aa98-e26222fd7714
+Scroll of Gust of Wind - 6bedf433-994f-4624-bb2a-cdf6f46d539a
+Scroll of Hold Person - 5e077657-8b5e-4e69-ae2e-95eab691fa41
+Scroll of Invisibility - 6ed22182-90a6-418a-8aa7-909b9e77aa47
+Scroll of Knock - 4c1a886a-7db5-4e00-bbc6-d4243534f057
+Scroll of Magic Weapon - ccf1bd99-e807-44e6-9a0a-7645ad533a8f
+Scroll of Melf's Acid Arrow - 0fa4bdab-9ef1-4575-b063-b3e9d359d593
+Scroll of Mirror Image - 019d8804-56ee-44eb-959a-db5377cda8ae
+Scroll of Misty Step - 9a2a3fcc-d948-4463-b88b-a9d61b77b015
+Scroll of Phantasmal Force - 2eb2147d-5bcb-4b0e-ac73-b2a4d1deeb77
+Scroll of Ray of Enfeeblement - cd1da9c5-c9ea-4d2a-93ce-e201c97eded9
+Scroll of Scorching Ray - 577a83c9-0bb7-4670-b0e9-d9a4738f6a0a
+Scroll of See Invisibility - 2e7fc397-cb84-4573-b6c7-1c7a8f2742d6
+Scroll of Shatter - 2ad118cb-b11f-45ca-a206-7575bbbaccc6
+Scroll of Web - 2eedb4ac-47fa-4039-9684-8b4bb0923a26
+Scroll of Animate Dead - 8b9b4657-93f3-4382-b6e0-a587902abcba
+Scroll of Bestow Curse - 48fbab09-ede1-4093-9223-38c9e172c061
+Scroll of Blink - d3800e05-635f-47b3-80b1-1a7c4161cf89
+Scroll of Counterspell - 17f828a4-5684-42dd-9f08-ff99ba43358a
+Scroll of Fear - 4cdb2434-0ffa-4fb1-9c42-d6451978f35b
+Scroll of Feign Death - 6e13fbf8-3db5-4420-8691-653d5ecb753e
+Scroll of Fireball - 79d2bb95-53fc-4e41-a004-5e1b83db8de7
+Scroll of Fly - 1df15994-c860-4930-beed-3135b74025fa
+Scroll of Gaseous Form - 4c026e53-4000-4818-913c-a5662ee7c061
+Scroll of Glyph of Warding - 056f10e1-01e7-4622-907f-faad8d48bbe6
+Scroll of Haste - 96d4aba5-bd76-4bae-a726-37a6c96776ab
+Scroll of Hypnotic Pattern - bdf15fb0-d9df-4509-ad70-42b5fad11971
+Scroll of Lightning Bolt - 83600284-8f78-409f-a0e0-d262b2bdea64
+Scroll of Protection from Energy - 9f8502bf-727f-40c7-93a3-5fab6ba2e2f5
+Scroll of Remove Curse - dea31400-25e5-4e69-bb76-14430fe46673
+Scroll of Revivify - c1c3e4fb-d68c-4e10-afdc-d4550238d50e
+Scroll of Sleet Storm - be05f7d0-ffa0-46e3-a0d6-66e3333159f1
+Scroll of Slow - 4c990ca3-01f6-4536-b8f3-c26cd9a0ca8b
+Scroll of Speak with Dead - 36d01b98-1702-4d00-81a9-1b8469dd67a5
+Scroll of Stinking Cloud - 0f0a7a12-1c77-423a-b16e-4a9a5480c05e
+Scroll of Vampiric Touch - 6fd2d3d4-801c-4591-9c05-db8a68e51808
+Scroll of Banishment - 82719943-71e0-4eb2-bc4f-c8c0dd02c47c
+Scroll of Blight - e0ee9263-3740-44fe-80da-4315cb836aef
+Scroll of Confusion - 7634cc33-d16b-4640-ba7c-8c6a26653591
+Scroll of Conjure Minor Elemental - a30864e5-06f0-4d14-9ea4-cb6870c0ddfe
+Scroll of Evard's Black Tentacles - e9fae419-8c7a-4d5d-950f-94675a2aff07
+Scroll of Fire Shield - 6b87f7b4-441c-41cf-92c3-29e258747454
+Scroll of Greater Invisibility - 795e4282-27c3-4177-b532-9e6559a26531
+Scroll of Ice Storm - e8c3ad4e-37f0-46c8-bf25-0ddc2dcb0139
+Scroll of Otiluke's Resilient Sphere - f5bf39c0-2df3-4cd4-842c-c1862e6f80aa
+Scroll of Phantasmal Killer - 3b802734-ad6e-45a4-988b-f7241636e5e9
+Scroll of Polymorph - 389da9ab-bee7-447c-9bed-f1021ddc94d4
+Scroll of Stoneskin - 7f39977f-bcab-4dda-933f-bd70cb333ecc
+Scroll of Wall of Fire - 0f3c7369-d0bd-4b97-960d-1407f4c8eebf
+Scroll of Cloudkill - 0e793d2d-1cd7-4b90-a71b-821423e50969
+Scroll of Cone of Cold - e81e7b31-8e7a-4fc1-977d-9a9a58fdd4a0
+Scroll of Conjure Elemental - c0e92dfa-29cf-46e8-8b35-8bded679df64
+Scroll of Dethrone - b2e1168a-021d-4a81-a041-6d2e1421a1fb
+Scroll of Dominate Person - 3b447e07-3e73-4906-9f7e-63a87e2da909
+Scroll of Hold Monster - d621c19f-d5c8-433c-bc75-7f2eb87d2f0a
+Scroll of Planar Binding - 6ac3b9ab-fdb4-47e8-8a35-91747de2afc8
+Scroll of Seeming - d2573c9b-6de2-45bd-8032-b8a59432f4b5
+Scroll of Telekinesis - 1d5ecaca-310b-4622-b302-81331c0a8e9e
+Scroll of Disintegrate - 3f737706-57ca-45e6-b0d1-45238da76329
+Scroll of Wall of Stone - d13587f4-a1f4-4833-bd1e-da1c7951d680
+Scroll of Circle of Death - ad31110a-aa9a-4427-925a-9952bfbef45a
+Scroll of Chain Lightning - 13105f7d-55fa-4292-abfe-b9d80054b48e
+Scroll of Eyebite - cecb1802-b2c0-4d65-aa08-aa15ca3619eb
+Scroll of Flesh to Stone - a9135751-3a8a-4070-9f3a-11d24d123a3f
+Scroll of Globe of Invulnerability - 8d4c06d1-e504-49b0-a4fa-5179ab717f1e
+Scroll of Otiluke's Freezing Sphere - 74d0e4f0-de97-4097-a7e7-f5759a375c81
+Scroll of Otto's Irresistible Dance - 3c8db4fb-c10b-415d-b9cd-c3254265b778
+Scroll of Sunbeam - 049d70c4-7ea3-4b6c-af6f-44dab7813a89
+Scroll of True Ressurection - 01d1b2b2-9e6b-4ad2-8d63-59f9caf1d389
+Signed Trade Visa - f2c940ba-3049-49d2-bb90-af9f4830057c
+Scroll of Arcane Eye - 5314d1eb-5771-47b5-80a7-2ee093ef4618
+Scroll of Dispel Magic - bc5c0bcf-144f-46ed-bcde-e6bd1225efb9
+
+************************************************************************************************************
+
+
+
+
+************ 20.MISCELLANOUS ************
+
+Icy Crystal - 35308cf1-3480-4a22-be9c-c0f41c3eb14c
+Icy Helve - 44bb4707-398c-4a38-9959-eb3052ebabc2
+Mithral Ore - f65292f7-a930-48a3-a803-914da4781056
+Shaft of a Broken Spear - 414956be-4aa5-447f-99c0-fb6382881ff5
+Head of a Broken Spear - 6774f642-6aa3-4756-a07d-a6be51ad6f06
+Shovel - 73efd1f7-5616-4ca8-84e6-6128aa6efaea
+Acid Barrel - 77cfc9e7-02ca-4be8-8e01-51ae3f873d60
+Brine Barrel - d6806561-2bd3-4333-ba90-dfbaf9474307
+Firewine Barrel - 79050068-7ce3-43f9-a9a3-1646f5eb39c3
+Nautiloid Tank - 24e01b77-0a74-410d-869f-919918f20278
+Oil Barrel - 72e3f454-5a68-4bb2-acef-7b8d595b5015
+Runepowder Barrel - 79dfb371-cd87-48f3-b542-26db2d39cfe2
+Smokepowder Barrel - 9c875b66-4024-487f-b67c-0c175538eb5c
+Water Barrel - 253b6d64-91f4-46a2-b05a-a606b0d7b342
+Thieves' Tools - e32a200c-5b63-414d-ae57-00e7b38f125b
+Trap Disarm Toolkit - 22c74b5e-bef2-41b1-b9ed-f4acc766d4ee
+Toy Block - d40903a5-1b2d-4422-8868-d64e6f709988
+Summon Us - dbc5b484-26d6-41f3-bd50-dc74b8f9cc9b
+Infernal Iron - 6242490e-42c9-49f0-bc3b-4e7ec11c0fe7
+Stuffed Owl Bear Toy - 80547e94-824e-454b-a793-f19458927787
+Lanceboard - 9d266cc0-c3b4-4319-a0ab-e1419ce8d115
+Ball - 216e88fa-3411-46e8-95b6-42bdfe91099a
+Pets Jar - 44da51b6-6d05-488c-9097-99dd6c795ed3
+Training Shield - e13facc6-aced-4b48-b239-b0e76448013f
+Dog Collar Myrna - b1e7bbad-db77-4790-af6b-f300b52498e7
+Toy Teddy Bear Clean - 1ac45157-d063-4314-8832-c50062a885dd
+Toy Teddy Bear Worn - 62bc283a-9919-4f7c-b468-5303e0f97175
+Toy Wooden Block A - b0f10499-4e01-462f-894f-5b0fe9043b25Toy 
+Toy Wooden Block B - 56738b6b-07de-472a-8b9f-d26262a96741
+Toy Wooden Block C - 2e88f468-b34c-439e-b488-5d10715885c3
+Toy Wooden Block D - d40903a5-1b2d-4422-8868-d64e6f709988
+Soape - d32a68ff-3b6a-4d83-b0c4-0a2c44b93ea9
+Sponge - 172603c6-0ee4-40f4-9f60-2727e44544d3
+Icy Metal - db32d957-c708-4694-a863-271e6a9a4676
+Lihala's Lute - 45a48cf7-baed-4d48-aaf4-1399948314e6
+Resonance Stone - a7edf7ca-1999-4d2c-b1bf-035d6e2b9e6e
+Planetar Feather - ee2faf6e-2af2-4eb9-aee4-94aedab7e81b
+
+************************************************************************************************************
+
+
+
+
+************ 21.CAMP CLOTHING ************
+
+Destitute Clothes - 42c04143-38cb-4112-91de-0d5ed0ca7101
+Road-Dust Grey Clothes - 47e4e37b-d3fa-4e23-8d53-203804cd3b6e
+Homely Clothes - f369f4fa-2da7-4693-a147-16cfaf02bca5
+Scruffy Vagabond Clothes - dfe7cf67-64b5-4b91-9ae2-50aea87493f9
+Black Flare Leather Outfit - 5efe9bb8-bffe-4c91-bbd6-bee4d5d0611c
+Blue Flare Leather Outfit - 6f3c80a9-14f8-481d-ab27-5426a00329e1
+Bright Flare Leather Outfit - ab68a753-921f-4df5-9979-d9663cea078e
+Comfortable Red Shirt - 4866f90d-ee70-43a8-96a4-35511f4b824e
+Cosy Blue Shirt - e03b6708-5865-409d-8855-67aa834c60bd
+Green Flare Leather Outfit - cf7e5e2f-d791-4929-b1bc-a7ba35db1687
+Leathery Garb - 82fa106f-3fb9-4c00-818f-5e5df5deb434
+Mellow Black Shirt - 67f1d175-a03b-4cb0-bf3c-c7304b147aca
+Rustic Dark Outfit - c9d62e5b-2734-42cf-9069-6953b8060df0
+Snug Purple Shirt - 8725508f-e47e-488f-8187-3d15ebb9c8e9
+Snugglesome Green Shirt - 39d87577-6f4f-438e-a5b7-abf387a6f0f1
+Umber Trousers - a5cc728e-6b8a-4458-86cd-7492f7c4a266
+Comfortable Ashmeadow Outfit - eff198aa-7040-4893-bde4-b0983c08142c
+Comfortable Autumnal Outfit - d73c75f6-7fbf-4336-817e-aab883c47406
+Comfortable Blue-Red Outfit - 516d4737-5f69-4083-8bae-3f09e5aab180
+Spring Slimfit Outfit - 52353c73-2c58-4dd7-8370-adb266a17fab
+Swarthy Wayfarer in Blue - 58f9af08-f4ac-412d-ba38-f8b1d7db9e5f
+Swarthy Wayfarer in Cream - d9caff77-293c-4e8d-a721-3e17908490f8
+Swarthy Wayfarer in Green - 12c9ad5c-040f-44a5-ac30-d8ed4505d651 
+Swarthy Wayfarer in Red - Swarthy Wayfarer in Red
+Teal Slimfit Outfit - 2db4d06e-db75-4bcf-97a2-de4dff6939af
+Anarchic Blue Outfit - 0004915f-4399-4ae1-beab-85a62c11b674
+Anarchic White Outfit - 0e9c3ca7-070f-43e9-b642-bd0b21f76290
+Backless Extravaganza - d0b540dd-c778-4573-b0cb-149a0309bfa2
+Chandelier-Style Embroidered Ensemble - 66685917-3cd9-4dc8-a792-319288dacb30
+Delicately Constructed Outfit - 0469f558-e4f0-4eb5-b4b2-bf00b8e0aa15
+Diamond Blue Doublet - a6e5ebd6-beb6-4d67-8aeb-254a2b063332
+Diamond Pattern Garb - c1212df0-3f47-4af7-b98a-164fca31da97
+Fastidiously Perfect Outfit - a38159ef-a981-4abd-bcdd-58e61558960e
+Lionheart Green-Pink Outfit - 1c6c44c6-4bc5-44f6-b5f6-8d3cc4654134
+Lionheart Outfit - 91bb667d-239b-4d56-9287-c41124736872
+Lionheart Teal Outfit - 6cd27edd-fd6b-491b-8263-c01d9dd915aa
+Raffish Bronze-Red Outfit - 220d0f79-5016-407d-aaa6-5fb4208dcc56
+Raffish Chestnut Outfit - 22a80754-79f2-4b6a-9de4-3e619a80d5d4
+Raffish Garb - c9588fa5-3644-4c2d-8b8b-f0d4cdb3869e
+Raffish Metallic-Shaded Outfit - e6497a0d-94e6-41bd-8bbd-91885bf56313
+Raffish Midnight Outfit - 4880fb87-77b7-4931-a586-6909c4a5752a 
+Solemnity Outfit - 9a8a79fe-a9a2-466d-af06-f3973fe5b16b
+Solemnity Outfit in Blue - b3185288-bcb3-475d-aac1-7c34fa88898e
+Solemnity Outfit in Gold Medallions - 168a676a-af4c-497c-8b98-76a0f6d20462
+Solemnity Outfit in Green - a7b3f166-f909-4103-8c2c-b8559da749b5
+Solemnity Outfit in Purple - 0650531b-3a2f-499e-bf4e-58488a14636f
+Splendid Beige Outfit - 0d2cf317-1e3d-492b-8755-00f33cd3f24f
+Splendid Blue Outfit - 5daa7ba8-8e8d-4e68-9f5a-3c9f89c32c89
+Splendid Gold Outfit - 12c2f3d2-a4a6-47e6-a7aa-dfcced16add6
+Splendid Green Outfit - 3c8eca7a-8c7c-40a5-be4c-64455630f08f
+Splendid Outfit - 9c1fedb8-4262-4426-84cc-8ad8dc01be97
+Splendid Purple Outfit - efb49491-ca1d-4bab-a7a7-815f8d298ee0
+Splendid Red Outfit - 6909f7fa-6da9-40ea-898e-91cbaac9bf5c
+Splendid Teal Outfit - f4064489-adce-4b58-b664-311c6d476880
+City of Brass Outfit - c65c5dd5-705c-4103-904c-0835d81bd846
+Eminent Emerald Outfit - c2024c47-967b-4d6b-bfb3-978f502d1321
+Magnificently Realised Ensemble - 2e3d2a61-a0ba-495c-80e2-faa452542035
+Eminent Obsidian Outfit - 164ebd0f-432e-4aa6-8589-5dccafc8383e
+Opalescent Outfit - f577a9be-8793-48da-a03d-e66d993dc4e7
+Chocolatier Style Doublet - 3fc58d24-9743-4e82-a4bd-ad18eda257cb
+Sweetly Tailored Outfit - 3dc4b718-0504-43e2-a88f-0d6736bf6b25
+Winter Gala Doublet - af6ffb20-cbdc-410c-9a12-6c217eb8aa9c
+Absolute Outfit - ef840839-3516-43b1-823f-103b1e0b04bf
+Angelic Scion Outfit - 62950ae1-b74f-46a6-bfd0-055c93bad651
+Circus Ensemble - 76e754a1-9559-4cb7-b11b-045f1b8aada1
+Drow Outfit - 7ab22473-bb9a-49f4-9890-4d3a691331b6
+Elegant Robe - 2f7aadd5-65ea-4ab6-8c55-88ee584c72df
+Mesmerising Circus Outfit - c03c2a3c-9e84-4042-8267-189ccb2af715
+Breezy Sandals - 697a6021-ff43-43d5-b9c9-a432bb3ea59d
+Casual Sandals - ba0fbaf7-324f-4f79-a124-66ba185faef9
+Celestial Sandals - db2f2945-debc-4b18-b4f5-6456a11ecddb
+Cross-Crest Sandals - 041882e7-cebb-4923-b284-7f2fed66ffe4
+Delicate Shoes - 5272e57c-7ea0-4bda-aac5-449304f4f011
+Diamond-Stitch Sandals - 64acdd3e-3813-4d54-90fd-36209d846147
+Meshtoe Sandals - 1856414d-8a47-4e41-8aee-55991b18f494
+Elfin Woodsoles - d8bc3625-f1d8-4ad3-8cfd-23b6b496cf36
+Firm-Heeled Sandals - d73378c9-fd89-43cf-bfa9-0a7c7c77324f
+Gladitorial Sandals - aa1b4d17-528f-4934-b350-6b17f389b9dd
+Pointed-Toe Shoes - 16a8aee6-568c-458e-b006-cb3344cac4fb
+Pristine Meshtoe Sandals - 2290f957-2e17-4ceb-870f-bd53f81f866c
+Slashstrip Sandals - 37ceb8fb-7d41-4373-b31b-6fcc602955b4
+Tanner's Delight - c6db137e-b61c-418f-9785-b0beb6e6de0f
+Tasteful Boots - 6a491be1-7480-4069-8ac2-277728652fbf
+Worn Slashstrip Sandals - 03855492-12d7-42bf-866f-8aeb8eae176f
+
+************************************************************************************************************
+
+
+
+
+************ 22.CONTAINER ************
+
+Burlap Sack - 008878b4-75d3-44f6-bf05-cbc913289976
+Pouch - 2e40240b-77d3-400b-bd6a-caff66a85833
+Backpack - 47805d79-88f1-4933-86eb-f78f67cbc33f
+Heavy Chest - 0b90bf9d-66fd-4741-be1f-39181efca97a
+Wooden Barrel - 1849ce97-45ac-43ea-9518-9f80aaa0c005
+Wooden Crate - 23578669-058f-4318-8e51-87523fc1307f
+Wooden Trunk - f403ec67-ba4b-4320-983a-60a8de9e3492
+Cartilaginous Chest - 813c005f-72ab-4806-ad7e-2e3135e41d27
+Crude Chest - b771aebb-e089-49a9-9bf6-471a00345afc
+Gilded Chest - 7aef0ad4-113a-402b-8491-e2dbff9add19
+Wicker Chest - b8bfef23-3f4e-4a82-86dc-2b7b6abbddb8
+Bucket of Fish - c0b7e734-8f91-4471-8119-292c1131f7c2
+Ribcage - 254096e8-fb58-46e4-9d85-29a8f92f78e6
+Traveller's Chest - 96eab9d1-74b1-42f7-b1ad-061a9fcea8c4
+Alchemy Pouch - b7543ff4-5010-4c01-9bcd-4da1047aebfc
+Camp Supply Sack - efcb70b7-868b-4214-968a-e23f6ad586bc
+Keychain - ee329627-dbee-405f-b9a6-b260de9ad34c
+
+************************************************************************************************************
+
+
+
+
+************ 23.Story Items (!USE AT OWN RISK! BEWARE OF POSSIBLE GAME BREAKING BUGS!) ************
+
+Iron Flash - 369c04b5-992b-4bde-8451-1eac0a3376ea
+Qua'nith Psionic Detector - 2a11a29e-ee3e-4ad7-9d06-beb79efea4e5
+Mind Flayer Parasite Specimen - 1ec327be-3b7f-4502-9586-860e057e09ae
+Scratch's Ball - 10df0443-eef7-4765-be17-ce2dbb8b3eb5
+
+--Act 1--
+Blooming Drow Head - 55249c82-7b97-4f8b-8fc2-ba0053aa6621
+Highcliff's Blueprints - 08712231-9c7c-4a83-8125-289a419e210f
+Dark Amethyst - f3b79dc6-aa5e-46a9-828e-6f6ce0021c48
+Duergar Antidote - 1f4f4587-ed01-4a11-ad5c-f9e98e0e7492
+Lump's War Horn - 7aef0ad4-113a-402b-8491-e2dbff9add19
+Sussur Bloom - 8706eab3-e05b-478d-833e-308379972dad
+Mithral Ore - f65292f7-a930-48a3-a803-914da4781056
+Sussur Tree Bark - ea99e006-80e1-414a-8995-c03d92eaf170
+Gift from the Absolute - d1f2b294-fdf8-43df-8d11-19743077cb68
+The Great Furnace of Grymforge - b4d60093-28b0-4076-b2f4-c7c3d3aa9d50
+Goblin's Drawing - 711d3410-e033-4cc1-b3e2-0e3b3abc9a85
+Nere's Head - 0e38339f-bf26-4218-95ba-a80fd3b5cb0e
+Noblestalk - 09561b3f-f556-4a01-b289-9b362bc0d43a
+Necromancy of Thay (openend) !NOT TESTED! - 73ea8888-ed82-4ca5-b9f9-0c9119873507
+
+--Act 2--
+Madeline's Ledger - c2e4b6e3-5d33-4cdf-afc0-5b583a1aabf0
+Moonlantern - 9aca1109-a59d-47d3-8f35-f248b70518f9
+Spider's Lyre - 98282bec-aeaa-4490-ae43-0c27bed58c74
+Grey Scout's Journal - 5279460a-2021-408f-b82d-593478ce3cde
+Umbral Gem - fd3fd8a9-a5fc-4726-9b6e-77f5ecf54cea
+
+--Act 3--
+Amulet of Bhaal - 16a632e2-45b1-4ff1-8250-513eb271abea
+Dirge of the Unholy Assassin - ffc6092a-58a1-4446-a226-84456e87f79b
+Astral-Touched Tadpole - 4a82e6f2-839f-434e-addf-b07dd1578194
+Map of Murder - 0abb9873-a07e-486b-bf50-60ccd5f8a0a3
+Bloodstained Parchment - 4ece815c-aff2-45c3-8b07-dd3a04454243
+Gortash's Netherstone - 91dcff74-81db-4d14-9242-7f38c3f6b011
+Clown's Severed Foot - c115ee19-9281-41cb-b2a4-28e2e81696ba
+Clown's Severed Hand - d888727b-07cb-482b-84a6-70757ddfcf77
+Clown's Severed Head - 78f9c440-f21b-49ef-b800-4419640ea63f
+Clown's Severed Leg - b9b087a8-0cb8-4e65-ba26-5c6469ad4669
+Clown's Severed Pelvis - 9c3fcbb2-d080-49bd-b88a-4bf48a4080a8
+Clown's Severed Torso - 506b9031-008b-400e-8102-ef6ef7dbc23f
+Clown's Severed Arm - c554df25-a6dd-4a30-b99d-27ae556dfe41
+
+
+--Keys--
+
+-Act 1-
+Intricate Key - 90c30dfe-fde3-4bc9-8772-253cdea75c28
+Suite Key - c8feace1-e292-4fb9-bb98-2bae35020fc5
+Mechanical Key - e26dd31f-5adc-4ca0-90b9-dd0ab8d62fcd
+Ornate Key - d9cf4a58-af56-4f4d-86b7-b94f8b1d42b2
+Temple Trader's Key - 16cb6f4c-306a-4d4a-9cbf-d8dd522fb327
+Pitted Key - d2f3647f-0331-4ebd-8b02-f428dc799d29
+Torturer's Key - 536107bd-277b-42bb-8eaf-2b787123615c
+Harper Key - e05c1703-dd13-48ba-8b09-bebfb5fff625
+
+-Act 2-
+Last Light Side Entrance Key - 77bb533f-e101-48a8-b9ef-e37e61d7dc65
+
+-Act 3-
+Counting House Safe n°2 Key - 186ecca4-3023-4433-9716-8f1752513afa
+Counting House Safe n°6 Key - fd951ed9-4693-483f-b36c-6247f464a69b
+Counting House Vault n°1 Key - 0ce654c7-e4e6-4613-878e-c534a4141d9e
+Counting House Vault n°6 Key - 52babaa9-60e0-4919-b523-4c0d916a0cc9
+High Security Vault n°3 Key - 3bb8470f-a2d7-4fb4-9ba4-009293a2db1b
+High Security Vault n°7 Key - 85ebe2f5-bd31-420e-bb23-81f85466c774
+
+************************************************************************************************************
+
+
+
+
+
