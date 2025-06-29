@@ -318,27 +318,51 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsDamageTypeNecrotic() and not Item()"
 data "StatsFunctors" "ApplyStatus(SELF, MAG_GISH_ARCANE_CHARGE, 100, 2)"
 
-new entry "MAG_Ignore_Necrotic_Resistance"
+new entry "MAG_Ignore_Necrotic_Resistance_Passive"
 // When your attack or spell deals necrotic damage, you can not roll 1, and you ignores necrotic resistance and immunity.
 type "PassiveData"
 data "DisplayName" ""
 data "Description" ""
 data "Boosts" "IF(MainDamageTypeIs(DamageType.Necrotic)):MinimumRollResult(Damage,2);IgnoreResistance(Necrotic,Resistant);IgnoreResistance(Necrotic,Immune)"
 
-new entry "MAG_Dread_Immunities"
+new entry "MAG_Dread_Immunities_Passive"
 // You are immune to poison and acid effects when you wearing this robe.
 type "PassiveData"
 data "DisplayName" ""
 data "Description" ""
 data "Boosts" "StatusImmunity(SG_Poisoned);"
 
-new entry "MAG_Grave_walking_resistance"
+new entry "MAG_Grave_walking_resistance_Passive"
 // You are immune to acid and acid surface.
 type "PassiveData"
 data "DisplayName" ""
 data "Description" ""
 data "Boosts" "StatusImmunity(MAG_ACID_NOXIOUS_FUMES);StatusImmunity(CRE_HATCHERY_GAS_NEGATIVE);StatusImmunity(CRE_HATCHERY_ACIDPOOL);StatusImmunity(ACID);Resistance(Acid, Resistant)"
 
+new entry "MAG_EL_MentalBoost_Passive"
+// You have +2 Bonus on Intelligence, Wisdom and Charisma
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "Ability(Intelligence, 2, 28);Ability(Wisdom, 2, 28);Ability(Charisma, 2, 28)"
 
+new entry "MAG_EL_ArcaneBoost_lesser_Passive"
+// You have +1 Bonus on Spell DC and +2 Bonus on  Saving Throw against Spells.
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "SpellSaveDC(2);IF(IsSpell()):RollBonus(SavingThrow,2)"
 
+new entry "MAG_Dread_KnowledgeBoost_Passive"
+// You have advantage and +2 Bonus on Concentration, Religion and Arcana Checks.
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "Advantage(Skill, Concentration);Advantage(Skill, Religion);Advantage(Skill, Arcana);RollBonus(SkillCheck,2,Concentration);RollBonus(SkillCheck,2,Religion);RollBonus(SkillCheck,2,Arcana)"
 
+new entry "MAG_Dread_Resistance_Passive"
+//
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "Resistance(Radiant, Resistant);Resistance(Necrotic, Immune);Resistance(Psychic, Immune)"
