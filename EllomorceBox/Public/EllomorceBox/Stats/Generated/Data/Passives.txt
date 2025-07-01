@@ -361,8 +361,19 @@ data "Description" ""
 data "Boosts" "Advantage(Skill, Concentration);Advantage(Skill, Religion);Advantage(Skill, Arcana);RollBonus(SkillCheck,2,Concentration);RollBonus(SkillCheck,2,Religion);RollBonus(SkillCheck,2,Arcana)"
 
 new entry "MAG_Dread_Resistance_Passive"
-//
+// You have resistance to Radiant Damage. And you are also immune to Necrotic and Psychic Damage.
 type "PassiveData"
 data "DisplayName" ""
 data "Description" ""
 data "Boosts" "Resistance(Radiant, Resistant);Resistance(Necrotic, Immune);Resistance(Psychic, Immune)"
+
+new entry "MAG_Necrotic_Additional_Damage_Passive"
+// When you deal necrotic damage, You deal additional 1d4 Necrotic Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "TooltipConditionalDamage" DealDamage(1d4,Necrotic,Magical)
+data "StatsFunctorContext" OnDamage
+data "Conditions" "IsAttack() and IsDamageTypeNecrotic()"
+data "StatsFunctors" DealDamage(1d4,Necrotic,Magical)
+

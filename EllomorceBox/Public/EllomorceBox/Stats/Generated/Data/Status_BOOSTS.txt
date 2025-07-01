@@ -130,17 +130,29 @@ data "Boosts" "Tag(ACT2_SHADOW_CURSE_IMMUNE)"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead"
 data "StatusEffect" "06b6b0a5-22a1-4c5a-ae8f-2d31595c5fee"
 
-new entry "MAG_EL_Unmoved_Defense"
+new entry "MAG_EL_UNMOVED_DEFENSE"
 // Reduce Movement Speed to 0 and gain DR(2) & AC+ 3 for 1 turn
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Icon" "Spell_Abjuration_DeathWard"
-data "StackId" "MAG_EL_Unmoved_Defense"
+data "StackId" "MAG_EL_UNMOVED_DEFENSE"
 data "TickType" "StartTurn"
 data "Boosts" "DamageReduction(All,Flat,2);AC(3)"
-data "RemoveConditions" "HasStatus('MAG_EL_Unmoved_Defense')"
+data "RemoveConditions" "HasStatus('MAG_EL_UNMOVED_DEFENSE')"
 data "RemoveEvents" "OnStatusApplied"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "5f2da987-e24e-49d0-b80b-0a062b169d30"
+
+new entry "MAG_SUNLIGHT_HYPERSENSITIVITY_IMMUNITY"
+// You won't be effected by Sunlight Hypersensitivity when you wearing this cloak.
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "StackId" "MAG_SUNLIGHT_HYPERSENSITIVITY_IMMUNITY"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "IF(HasStatus('SUNLIGHT_HYPERSENSITIVITY')):RemoveStatus(SUNLIGHT_HYPERSENSITIVITY)"
+
+

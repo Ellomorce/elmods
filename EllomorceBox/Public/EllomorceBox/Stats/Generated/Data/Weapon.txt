@@ -28,3 +28,20 @@ data "Weapon Properties" "Finesse;Light;Melee;Dippable;Magical"
 data "DefaultBoosts" "WeaponProperty(Magical);WeaponEnchantment(5)"
 data "PassivesOnEquip" "MAG_IgnoreSlashingResistance_Passive;MAG_PHB_Sentinel_Shield_Passive;MAG_Giantslayer_Passive;MAG_PlaneShifterSlayer_Passive"
 data "StatusOnEquip" "MAG_COMBAT_GIANTSLAYER_TECHNICAL"
+
+// Divide Line -------------------------------------
+
+new entry "WPN_Dread_Flail"
+type "Weapon"  
+using "WPN_Gnoll_Flind_Flail"
+data "RootTemplate" "XXX"
+data "ValueOverride" "800"
+data "Weight" "1"
+data "Rarity" "Legendary"
+data "Boosts" ""
+data "Weapon Properties" ""
+data "DefaultBoosts" "WeaponProperty(Magical);WeaponEnchantment(3)"
+data "PassivesOnEquip" "MAG_Legendary_ArcaneEnchantment_Passive;"
+data "StatusOnEquip" ""
+
+
