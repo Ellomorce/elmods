@@ -21,5 +21,25 @@ data "DescriptionParams" "DealDamage(6d6, Fire)"
 data "TooltipDamageList" "DealDamage(6d6,Fire)"
 data "TooltipAttackSave" "Dexterity"
 
-----
+// For Necromancer
+
+new entry "EL_Projectile_MAG_CursedTome_Dethrone"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_CursedTome_Dethrone"
+data "Cooldown" "OncePerCombat"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;3e441d3f-11f9-432d-877c-c0ba4d92c74a,,;8b7ae969-2a04-4720-9685-3bde54c18ffe,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "MemoryCost" ""
+
+// For Monk
+
+new entry "EL_Projectile_MAG_KiBlast"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_EldritchBlast"
+data "SpellProperties" ""
+data "SpellSuccess" "DealDamage(2d10,Force,Magical);Force(5);ApplyStatus(PRONE,100,-1)"
+data "UseCosts" "ActionPoint:1;KiPoint:1"
+
 

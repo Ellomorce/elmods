@@ -61,3 +61,43 @@ data "TargetEffect" "7537e8f0-1897-4a66-83fe-7f58e9dbd12e"
 
 ----
 
+new entry "EL_Target_MAG_Harm"
+// 
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Harm"
+data "Cooldown" "OncePerCombat"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "9313094a-bae2-454f-9701-f920d0e8e98d,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;808fdfab-2e6c-472e-b3c4-19ce4a719d9d,,;,,;ea745d30-eb87-447f-b190-c81298e27d9c,,;,,;,,"
+data "MemoryCost" ""
+
+new entry "EL_Target_MAG_MonkTechnique_Piercing_Vulnerability"
+// 
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StunningStrike_Unarmed"
+data "SpellSuccess" "ApplyStatus(MAG_BHAALIST_AURA_OF_MURDER,100,3);DealDamage(UnarmedDamage , Piercing)"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "TooltipDamageList" "DealDamage(LevelMapValue(MartialArts)+DexterityModifier, Piercing)"
+data "TooltipStatusApply" "ApplyStatus(MAG_BHAALIST_AURA_OF_MURDER,100,3)"
+data "SpellAnimation" "4f0a01e4-761d-4236-b789-33c1e7532023,,;203f8bb2-6a8d-4c3c-9927-65bad54d325c,,;c369f7cf-f7ce-47dc-955c-a8aa66068457,,;843f4e10-7239-49f0-92c8-a385b920db93,,;e85be5a8-6e48-4da4-8486-0d168159df4e,,;5f3e4ce3-ccf4-4609-9aa7-684fc6506599,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;c369f7cf-f7ce-47dc-955c-a8aa66068457,,;,,"
+data "SpellFlags" "IsMelee;IsHarmful"
+
+new entry "EL_Target_MAG_MonkTechnique_Piercing"
+// 
+type "SpellData"
+data "SpellType" "Target"
+using "XXX"
+data "SpellSuccess" "XXX"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "TooltipDamageList" "XXX"
+data "SpellAnimation"
+
+
+
+
+
+
+
