@@ -72,32 +72,78 @@ data "SpellAnimation" "9313094a-bae2-454f-9701-f920d0e8e98d,,;,,;cd5e5d4a-38e1-4
 data "MemoryCost" ""
 
 new entry "EL_Target_MAG_MonkTechnique_Piercing_Vulnerability"
-// 
+// Spell Name: Equals to Stunning Strike but inflicts piercing vulnerability
+// Only for monk to use: IF (Tagged('MONK', context.Source)):XXX
 type "SpellData"
 data "SpellType" "Target"
 using "Target_StunningStrike_Unarmed"
-data "SpellSuccess" "ApplyStatus(MAG_BHAALIST_AURA_OF_MURDER,100,3);DealDamage(UnarmedDamage , Piercing)"
+data "SpellSuccess" "ApplyStatus(MAG_BHAALIST_AURA_OF_MURDER,100,3);DealDamage(UnarmedDamage, Piercing)"
+data "Icon" "Action_Monster_Slayer_Bloodbath"
 data "DisplayName" "XXX"
 data "Description" "XXX"
 data "TooltipDamageList" "DealDamage(LevelMapValue(MartialArts)+DexterityModifier, Piercing)"
 data "TooltipStatusApply" "ApplyStatus(MAG_BHAALIST_AURA_OF_MURDER,100,3)"
-data "SpellAnimation" "4f0a01e4-761d-4236-b789-33c1e7532023,,;203f8bb2-6a8d-4c3c-9927-65bad54d325c,,;c369f7cf-f7ce-47dc-955c-a8aa66068457,,;843f4e10-7239-49f0-92c8-a385b920db93,,;e85be5a8-6e48-4da4-8486-0d168159df4e,,;5f3e4ce3-ccf4-4609-9aa7-684fc6506599,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;c369f7cf-f7ce-47dc-955c-a8aa66068457,,;,,"
-data "SpellFlags" "IsMelee;IsHarmful"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful"
 
-new entry "EL_Target_MAG_MonkTechnique_Piercing"
-// 
+new entry "EL_Target_MAG_MonkTechnique_Piercing_Strike"
+// Spell Name: Equals to Unarmed Strike but deals piercing dmg, costs action.
+// Only for monk to use: IF (Tagged('MONK', context.Source)):XXX
 type "SpellData"
 data "SpellType" "Target"
-using "XXX"
-data "SpellSuccess" "XXX"
+using "Target_UnarmedAttack"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Piercing)"
+data "Icon" "Action_Monster_Slayer_Slam"
 data "DisplayName" "XXX"
 data "Description" "XXX"
-data "TooltipDamageList" "XXX"
-data "SpellAnimation"
+data "TooltipDamageList" "DealDamage(LevelMapValue(MartialArts)+DexterityModifier, Piercing)"
+data "PrepareSound" "Vocal_Component_Monk_Damage"
+data "CastSound" "Spell_Cast_Monk_UnarmedStrike_L1to3"
+data "TargetSound" Spell_Impact_Monk_UnarmedStrike_L1to3"
+data "UseCosts" "ActionPoint:1"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful"
+data "CastEffect" "9d8f170e-35d7-4cdb-b1f9-5493cf771b19"
+data "DamageType" "Piercing"
 
+new entry "EL_Target_MAG_MonkTechnique_Piercing_BonusStrike"
+// Spell Name: Equals to Unarmed Strike but deals piercing dmg, costs bonus action.
+// Only for monk to use: IF (Tagged('MONK', context.Source)):XXX
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE)" 
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape')"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack)"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Piercing)"
+data "Icon" "Action_Imp_Claws"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "TooltipDamageList" "DealDamage(LevelMapValue(MartialArts)+DexterityModifier, Piercing)"
+data "PrepareSound" "Vocal_Component_Monk_Damage"
+data "CastSound" "Spell_Cast_Monk_UnarmedStrike_L1to3"
+data "TargetSound" Spell_Impact_Monk_UnarmedStrike_L1to3"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f797-dd8e-408d-b18d-01650f6041e2,,;69345989-e868-432e-9d8c-84f4bcf77494,,;5925204d-590c-4d7c-ac62-a51ba44d4589,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "DualWieldingSpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f797-dd8e-408d-b18d-01650f6041e2,,;69345989-e868-432e-9d8c-84f4bcf77494,,;5925204d-590c-4d7c-ac62-a51ba44d4589,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful"
+data "CastEffect" "9d8f170e-35d7-4cdb-b1f9-5493cf771b19"
+data "DamageType" "Piercing"
+data "Sheathing" "DontChange"
 
-
-
-
+new entry "EL_Target_MAG_MonkTechnique_Piercing_FlurryBlows"
+// Spell Name: Equals to Flurry of Blows but deals piercing dmg, costs bonus action.
+// Only for monk to use: IF (Tagged('MONK', context.Source)):XXX
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FlurryOfBlows"
+data "SpellSuccess" "DealDamage(UnarmedDamage, Piercing);Cast2[DealDamage(UnarmedDamage, Piercing)]"
+data "Icon" "Action_Monster_Slayer_MultiAttack"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "TooltipDamageList" "DealDamage(LevelMapValue(MartialArts)+DexterityModifier, Piercing);DealDamage(LevelMapValue(MartialArts)+DexterityModifier, Piercing)"
+data "SpellStyleGroup" ""
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful"
+data "DamageType" "Piercing"
 
 

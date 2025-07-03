@@ -41,5 +41,4 @@ using "Projectile_EldritchBlast"
 data "SpellProperties" ""
 data "SpellSuccess" "DealDamage(2d10,Force,Magical);Force(5);ApplyStatus(PRONE,100,-1)"
 data "UseCosts" "ActionPoint:1;KiPoint:1"
-
-
+data "SpellStyleGroup" ""

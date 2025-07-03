@@ -297,6 +297,7 @@ data "ToggleOnEffect" "2b0cc716-32e2-4d02-943f-2bd3bb83573d"
 //Debug: Check if ToggleOnEffect uuid is effective
 
 new entry "EL_MAG_Necrotic_Bonus_Damage_Passive"
+// Tag: Common
 // When you deal necrotic damage, You deal additional 2 Necrotic Damage.
 type "PassiveData"
 data "DisplayName" "h1ee83befg1bc6g4ddeg9536g39cf6446c925" // writes to localization
@@ -308,6 +309,7 @@ data "StatsFunctorContext" "OnDamage"
 data "StatsFunctors" "IF(HasDamageDoneForType(DamageType.Necrotic)):DealDamage(2, Necrotic)"
 
 new entry "EL_MAG_Necrotic_GainArcaneChargeOnDamaged_Passive"
+// Tag: Common
 // When You deal necrotic damage, you gain Arcane Charge for 2 turns.
 type "PassiveData"
 data "DisplayName" "h0c5fd09eg6678g4cc7g8e2bg89115465f645" // writes to localization
@@ -319,6 +321,7 @@ data "Conditions" "IsDamageTypeNecrotic() and not Item()"
 data "StatsFunctors" "ApplyStatus(SELF, MAG_GISH_ARCANE_CHARGE, 100, 2)"
 
 new entry "EL_MAG_Ignore_Necrotic_Resistance_Passive"
+// Tag: Common
 // When your attack or spell deals necrotic damage, you can not roll 1, and you ignores necrotic resistance and immunity.
 type "PassiveData"
 data "DisplayName" ""
@@ -326,6 +329,7 @@ data "Description" ""
 data "Boosts" "IF(MainDamageTypeIs(DamageType.Necrotic)):MinimumRollResult(Damage,2);IgnoreResistance(Necrotic,Resistant);IgnoreResistance(Necrotic,Immune)"
 
 new entry "EL_MAG_Dread_Immunities_Passive"
+// Tag: Common
 // You are immune to poison and acid effects when you wearing this robe.
 type "PassiveData"
 data "DisplayName" ""
@@ -333,6 +337,7 @@ data "Description" ""
 data "Boosts" "StatusImmunity(SG_Poisoned);"
 
 new entry "EL_MAG_Grave_walking_resistance_Passive"
+// Tag: Common
 // You are immune to acid and acid surface.
 type "PassiveData"
 data "DisplayName" ""
@@ -340,6 +345,7 @@ data "Description" ""
 data "Boosts" "StatusImmunity(MAG_ACID_NOXIOUS_FUMES);StatusImmunity(CRE_HATCHERY_GAS_NEGATIVE);StatusImmunity(CRE_HATCHERY_ACIDPOOL);StatusImmunity(ACID);Resistance(Acid, Resistant)"
 
 new entry "EL_MAG_MentalBoost_Passive"
+// Tag: Common
 // You have +2 Bonus on Intelligence, Wisdom and Charisma
 type "PassiveData"
 data "DisplayName" ""
@@ -347,6 +353,7 @@ data "Description" ""
 data "Boosts" "Ability(Intelligence, 2, 28);Ability(Wisdom, 2, 28);Ability(Charisma, 2, 28)"
 
 new entry "EL_MAG_ArcaneBoost_lesser_Passive"
+// Tag: Common
 // You have +1 Bonus on Spell DC and +2 Bonus on  Saving Throw against Spells.
 type "PassiveData"
 data "DisplayName" ""
@@ -354,6 +361,7 @@ data "Description" ""
 data "Boosts" "SpellSaveDC(2);IF(IsSpell()):RollBonus(SavingThrow,2)"
 
 new entry "EL_MAG_Dread_KnowledgeBoost_Passive"
+// Tag: Common
 // You have advantage and +2 Bonus on Concentration, Religion and Arcana Checks.
 type "PassiveData"
 data "DisplayName" ""
@@ -368,6 +376,7 @@ data "Description" ""
 data "Boosts" "Resistance(Radiant, Resistant);Resistance(Necrotic, Immune);Resistance(Psychic, Immune)"
 
 new entry "EL_MAG_Necrotic_Additional_Damage_Passive"
+// Tag: Common
 // When you deal necrotic damage, You deal additional 1d4 Necrotic Damage.
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -380,50 +389,87 @@ data "StatsFunctors" DealDamage(1d4,Necrotic,Magical)
 // Monk Pack ------------------------------------------------------------
 
 new entry "EL_MAG_UnarmedAttack_Bonus_Passive"
-// 
+// Tag: Common
+// UnarmedAttack +3
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
+data "Icon" "GenericIcon_Intent_Buff"
 data "Boosts" "IF(IsUnarmedAttack()):RollBonus(Attack,3);RollBonus(MeleeSpellAttack, 3);RollBonus(RangedSpellAttack,3)"
 
 new entry "EL_MAG_UnarmedAttack_Critical_Passive"
-// 
+// Tag: Common
+// UnarmedAttack Improved Critical
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
+data "Icon" "PassiveFeature_ImprovedCritical"
 data "Boosts" "IF(IsUnarmedAttack()):ReduceCriticalAttackThreshold(1)"
 
 new entry "EL_MAG_Legendary_Force_UnarmedAttack_Passive"
-// 
+// UnarmedAttack + Damage
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
+data "Icon" "GenericIcon_DamageType_Force"
 data "Boosts" "CharacterUnarmedDamage(1d10, Force)"
 
 new entry "EL_MAG_Legendary_Piercing_UnarmedAttack_Passive"
-// 
+// UnarmedAttack + Damage
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
+data "Icon" "PassiveFeature_Generic_Death"
 data "Boosts" "CharacterUnarmedDamage(1d10, Piercing)"
 
-new entry "EL_MAG_UnarmedAttack_OffBalanced_Passive"
-// 
+new entry "EL_MAG_Legendary_Lightning_UnarmedAttack_Passive"
+// UnarmedAttack + Damage
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Boosts" "CharacterUnarmedDamage(1d10, Lightning)"
+
+new entry "EL_MAG_UnarmedAttack_OffBalanced_Passive"
+// UnarmedAttack + Status
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "statIcons_OffBalanced"
 data "Properties" "OncePerTurn;Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsUnarmedAttack()"
 data "StatsFunctors" "ApplyStatus(OFF_BALANCED, 100, 2)"
 
 new entry "EL_MAG_UnarmedAttack_Bleeding_Passive"
-// 
+// UnarmedAttack + Status
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
+data "Icon" "PassiveFeature_Generic_Blood"
 data "Properties" "OncePerTurn;Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsUnarmedAttack()"
 data "StatsFunctors" "ApplyStatus(BLEEDING, 100, 2)"
+
+new entry "EL_MAG_UnarmedAttack_Shock_Passive"
+// UnarmedAttack + Status
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" ""
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsUnarmedAttack()"
+data "StatsFunctors" "ApplyStatus(SHOCKED 100, 2)"
+
+new entry "EL_MAG_Shock_Advantage_Passive"
+// Tag: Common
+// Advantage against Shocked Enemy
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" ""
+data "Boosts" "IF(HasStatus('SHOCKED',context.Target)):Advantage(AttackRoll)"
+
 
