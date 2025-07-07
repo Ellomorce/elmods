@@ -302,11 +302,9 @@ new entry "EL_MAG_Necrotic_Bonus_Damage_Passive"
 type "PassiveData"
 data "DisplayName" "h1ee83befg1bc6g4ddeg9536g39cf6446c925" // writes to localization
 data "Description" "h1b7fc811g8603g40b7gaf1bgf6005292d902" // writes to localization
-data "DescriptionParams" "DealDamage(2, Necrotic);"
+data "DescriptionParams" "DamageBonus(2, Necrotic);"
 data "Icon" "PassiveFeature_Generic_Magical"
-data "Properties" "OncePerAttack"
-data "StatsFunctorContext" "OnDamage"
-data "StatsFunctors" "IF(HasDamageDoneForType(DamageType.Necrotic)):DealDamage(2, Necrotic)"
+data "Boosts" "IF(HasDamageDoneForType(DamageType.Necrotic)):DamageBonus(2, Necrotic)"
 
 new entry "EL_MAG_Necrotic_GainArcaneChargeOnDamaged_Passive"
 // Tag: Common
@@ -430,6 +428,47 @@ data "Description" "XXX"
 data "Icon" "GenericIcon_DamageType_Lightning"
 data "Boosts" "CharacterUnarmedDamage(1d10, Lightning)"
 
+new entry "EL_MAG_Fire_Attack_Buff_Passive"
+// Tag: Common
+// Attack + Fire Damage
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "Boosts" "CharacterWeaponDamage(1d6, Fire);CharacterUnarmedDamage(1d6, Fire);IF(IsUnarmedAttack()):RollBonus(Attack,1)"
+
+new entry "EL_MAG_Legendary_Fire_UnarmedAttack_Passive"
+// UnarmedAttack + Damage
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "Boosts" "CharacterUnarmedDamage(1d10, Fire)"
+
+new entry "EL_MAG_Legendary_Fire_Additional_Damage_Passive"
+// Tag: Common
+// When you deal Fire damage, You deal additional 1d4 Fire Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "DescriptionParams" "DealDamage(1d4, Fire);"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsAttack() and IsDamageTypeFire()"
+data "StatsFunctors" "IF(HasDamageDoneForType(DamageType.Fire)):DealDamage(1d4, Fire, Magical)"
+
+new entry "EL_MAG_Heat_Bonus_Damage_Passive"
+// Tag: Common
+// When you are in heat condition, You deal additional 1 Fire Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "DescriptionParams" "DamageBonus(1, Fire);"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "BoostContext" "OnAttack"
+data "BoostConditions" "HasStatus('MAG_FIRE_HEAT', context.Source)"
+data "Boosts" "IF(IsMeleeWeaponAttack() or IsMeleeUnarmedAttack()):DamageBonus(1, Fire)"
+
 new entry "EL_MAG_UnarmedAttack_OffBalanced_Passive"
 // UnarmedAttack + Status
 type "PassiveData"
@@ -461,7 +500,41 @@ data "Icon" ""
 data "Properties" "OncePerTurn;Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsUnarmedAttack()"
-data "StatsFunctors" "ApplyStatus(SHOCKED 100, 2)"
+data "StatsFunctors" "ApplyStatus(SHOCKED, 100, 2)"
+
+new entry "EL_MAG_UnarmedAttack_Stunned_Passive"
+// UnarmedAttack + Status
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" ""
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsUnarmedAttack()"
+data "StatsFunctors" "IF(IsMetalCharacter(context.Target)):ApplyStatus(STUNNED, 100, 2)"
+
+new entry "EL_MAG_Attack_Burning_Passive"
+// Tag: Common
+// UnarmedAttack + Status
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" ""
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsMeleeWeaponAttack() or IsMeleeUnarmedAttack()"
+data "StatsFunctors" "ApplyStatus(BURNING, 100, 2)"
+
+new entry "EL_MAG_UnarmedAttack_Hellfire_Passive"
+// UnarmedAttack + Status
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" ""
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsUnarmedAttack()"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, 17) and (Tagged('UNDEAD', context.Target) or Tagged('ABERRATION', context.Target) or Tagged('FIEND', context.Target))):ApplyStatus(BURNING_HELLFIRE, 100, 1)"
 
 new entry "EL_MAG_Shock_Advantage_Passive"
 // Tag: Common
@@ -472,4 +545,27 @@ data "Description" "XXX"
 data "Icon" ""
 data "Boosts" "IF(HasStatus('SHOCKED',context.Target)):Advantage(AttackRoll)"
 
+new entry "EL_MAG_Evil_Advantage_Passive"
+// UnarmedAttack gain Advantage against Undead, Aberration & Fiend Creature
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" ""
+data "Boosts" "IF(Tagged('UNDEAD', context.Target) or Tagged('ABERRATION', context.Target) or Tagged('FIEND', context.Target)):Advantage(AttackRoll)"
+
+new entry "EL_MAG_Ignore_Lightning_Resistance_Passive"
+// Tag: Common
+// When your attack or spell deals Lightning damage, you can not roll 1, and you ignores Lightning resistance and immunity.
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "IF(MainDamageTypeIs(DamageType.Lightning)):MinimumRollResult(Damage,2);IgnoreResistance(Lightning,Resistant);IgnoreResistance(Lightning,Immune)"
+
+new entry "EL_MAG_Ignore_Fire_Resistance_Passive"
+// Tag: Common
+// When your attack or spell deals Fire damage, you can not roll 1, and you ignores Fire resistance and immunity.
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "IF(MainDamageTypeIs(DamageType.Fire)):MinimumRollResult(Damage,2);IgnoreResistance(Fire,Resistant);IgnoreResistance(Fire,Immune)"
 

@@ -1,0 +1,15 @@
+new entry "EL_Zone_MAG_Hellfire_Wave"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_SteelWatcher_Biped_ControlledCombustion"
+data "Cooldown" "OncePerShortRest"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, 15)"
+data "SpellSuccess" "IF(not HasStatus('BURNING_HELLFIRE')):ApplyStatus(BURNING_HELLFIRE,100,1);DealDamage(3d8, Fire);IF(HasStatus('BURNING_HELLFIRE')):DealDamage(3d8,Fire);IF(HasStatus('BURNING')):DealDamage(3d8,Fire)"
+data "SpellFail" "DealDamage(3d8/2, Fire);IF(HasStatus('BURNING_HELLFIRE')):DealDamage(3d8/2,Fire);IF(HasStatus('BURNING')):DealDamage(3d8,Fire)"
+data "Icon" "Spell_Evocation_BurningHands"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "SpellFlags" "HasSomaticComponent;IsHarmful;CanAreaDamageEvade"
+data "RechargeValues" ""
+
+
