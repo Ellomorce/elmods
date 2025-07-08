@@ -557,15 +557,41 @@ new entry "EL_MAG_Ignore_Lightning_Resistance_Passive"
 // Tag: Common
 // When your attack or spell deals Lightning damage, you can not roll 1, and you ignores Lightning resistance and immunity.
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "XXX"
+data "Description" "XXX"
 data "Boosts" "IF(MainDamageTypeIs(DamageType.Lightning)):MinimumRollResult(Damage,2);IgnoreResistance(Lightning,Resistant);IgnoreResistance(Lightning,Immune)"
 
 new entry "EL_MAG_Ignore_Fire_Resistance_Passive"
 // Tag: Common
 // When your attack or spell deals Fire damage, you can not roll 1, and you ignores Fire resistance and immunity.
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "XXX"
+data "Description" "XXX"
 data "Boosts" "IF(MainDamageTypeIs(DamageType.Fire)):MinimumRollResult(Damage,2);IgnoreResistance(Fire,Resistant);IgnoreResistance(Fire,Immune)"
+
+new entry "EL_MAG_Physic_SavingThrow_Boost_Passive"
+// Tag: Common
+// You have +2 Bonus and advantage on Str & Dex Saving Throws.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "Advantage(SavingThrow, Strength);Advantage(SavingThrow, Dexterity);RollBonus(SavingThrow,2,Strength);RollBonus(SavingThrow,2,Dexterity)"
+
+new entry "EL_MAG_Force_Karma_Passive"
+// Tag: Common
+// When a creature hits you with a melee attack, it takes n Force Damage.
+type "PassiveData"
+using "ArmorOfAgathys"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "StatsFunctors" "ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,ClassLevel(Monk),Force,Magical)"
+
+new entry "EL_MAG_Lightening_Resistance_Passive"
+// You have Resistance to Lightening Damage. And you are also immune to shocked and electrocuted conditions.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "Resistance(Lightning, Resistant);StatusImmunity(SHOCKED);StatusImmunity(SHOCKED_SURFACE);StatusImmunity(STATIC_DISCHARGE);StatusImmunity(STATIC_DISCHARGE_DAMAGE);StatusImmunity(STATIC_DISCHARGE_CONSTRUCT);StatusImmunity(MAG_CHARGED_LIGHTNING_AURA_ELECTRIFIED);StatusImmunity(MAG_ELECTROCUTED)"
+
+
 

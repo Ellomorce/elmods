@@ -62,7 +62,7 @@ data "StatusPropertyFlags" "DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "4555b070-e92d-467f-8d81-b9e421fed7be"
 
----
+//---
 
 new entry "EL_MAG_CASTER_ACBUFF"
 // Armor of Dark Weave: Add your spell casting ability modifiers to AC while not wearing armor
@@ -154,5 +154,17 @@ data "Description" "XXX"
 data "StackId" "EL_MAG_SUNLIGHT_HYPERSENSITIVITY_IMMUNITY"
 data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnRemoveFunctors" "IF(HasStatus('SUNLIGHT_HYPERSENSITIVITY')):RemoveStatus(SUNLIGHT_HYPERSENSITIVITY)"
+
+// Monk Pack ------------------------------------------------------------
+
+new entry "EL_MAG_ELECTRIC_SURFACE_KIRESTORATION_BOOTS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "StackId" "MAG_CHARGED_LIGHTNING_ELECTRIC_SURFACE_BOOTS"
+data "TickType" "StartTurn"
+data "TickFunctors" "IF(not Dead() and IsInElectrifiedSurface() and Combat()):RestoreResource(KiPoint,1,0)"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog;IgnoreResting;ApplyToDead"
+data "OnRemoveFunctors" "RemoveStatus(MAG_CHARGED_LIGHTNING_ELECTRIFY_SURFACE_TECHNICAL)"
 
 
