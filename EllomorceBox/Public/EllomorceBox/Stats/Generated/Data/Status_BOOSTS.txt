@@ -65,6 +65,7 @@ data "StatusEffect" "4555b070-e92d-467f-8d81-b9e421fed7be"
 //---
 
 new entry "EL_MAG_CASTER_ACBUFF"
+// Tag: Wizard, Sorcerer
 // Armor of Dark Weave: Add your spell casting ability modifiers to AC while not wearing armor
 type "StatusData"
 data "StatusType" "BOOST"
@@ -80,6 +81,7 @@ data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "b605de22-7474-4f7b-9eeb-287ef6a94dce"
 
 new entry "EL_MAG_CASTER_ACBUFF_TECHNICAL"
+// Tag: Wizard, Sorcerer
 // Armor of Dark Weave: Add your spell casting ability modifiers to AC while not wearing armor
 type "StatusData"
 data "StatusType" "BOOST"
@@ -89,6 +91,7 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "OnRemoveFunctors" "RemoveStatus(EL_MAG_CASTER_ACBUFF)"
 
 new entry "EL_MAG_DREAD_AURA"
+// Tag: Necromancer
 //
 type "StatusData"
 data "StatusType" "BOOST"
@@ -105,6 +108,7 @@ data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCom
 data "StatusGroups" ""
 
 new entry "EL_MAG_DREAD_AURA_BUFF"
+// Tag: Necromancer
 //
 type "StatusData"
 data "StatusType" "BOOST"
@@ -117,6 +121,7 @@ data "Boosts" "IncreaseMaxHP(20);WeaponDamageResistance(Bludgeoning);WeaponDamag
 data "StatusEffect" "b605de22-7474-4f7b-9eeb-287ef6a94dce"
 
 new entry "EL_MAG_GRAVE_WALKING_PROTECTION"
+// Tag: Common
 // You are immune to shadow curse
 type "StatusData"
 data "StatusType" "BOOST"
@@ -131,6 +136,7 @@ data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead"
 data "StatusEffect" "06b6b0a5-22a1-4c5a-ae8f-2d31595c5fee"
 
 new entry "EL_MAG_UNMOVED_DEFENSE"
+// Tag: Common
 // Reduce Movement Speed to 0 and gain DR(2) & AC+ 3 for 1 turn
 type "StatusData"
 data "StatusType" "BOOST"
@@ -146,6 +152,7 @@ data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "5f2da987-e24e-49d0-b80b-0a062b169d30"
 
 new entry "EL_MAG_SUNLIGHT_HYPERSENSITIVITY_IMMUNITY"
+// Tag: Necromancer, Undead Race
 // You won't be effected by Sunlight Hypersensitivity when you wearing this cloak.
 type "StatusData"
 data "StatusType" "BOOST"
@@ -158,13 +165,51 @@ data "OnRemoveFunctors" "IF(HasStatus('SUNLIGHT_HYPERSENSITIVITY')):RemoveStatus
 // Monk Pack ------------------------------------------------------------
 
 new entry "EL_MAG_ELECTRIC_SURFACE_KIRESTORATION_BOOTS"
+// Tag: Monk
+// 
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "XXX"
 data "StackId" "MAG_CHARGED_LIGHTNING_ELECTRIC_SURFACE_BOOTS"
 data "TickType" "StartTurn"
-data "TickFunctors" "IF(not Dead() and IsInElectrifiedSurface() and Combat()):RestoreResource(KiPoint,1,0)"
+data "TickFunctors" "IF(not Dead() and IsInElectrifiedSurface() and Combat()):RestoreResource(SELF,KiPoint,1,0)"
 data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "OnRemoveFunctors" "RemoveStatus(MAG_CHARGED_LIGHTNING_ELECTRIFY_SURFACE_TECHNICAL)"
+
+new entry "EL_MAG_VAJRA_DEFENSE"
+// Tag: Monk
+// 
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "Spell_Abjuration_BladeWard"
+data "StackId" "EL_MAG_VAJRA_DEFENSE"
+data "TickType" "StartTurn"
+data "Boosts" "DamageReduction(All,Flat,2);Resistance(Slashing, Resistant);Resistance(Piercing, Resistant);Resistance(Bludgeoning, Resistant)"
+data "RemoveConditions" "HasStatus('EL_MAG_VAJRA_DEFENSE')"
+data "RemoveEvents" "OnStatusApplied"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "5f2da987-e24e-49d0-b80b-0a062b169d30"
+
+// new entry "EL_MAG_FEAR_AURA"
+// Tag: Common
+// 
+// type "StatusData"
+// data "StatusType" "BOOST"
+// data "DisplayName" "XXX"
+// data "Description" "XXX"
+// data "Icon" "Status_Frightened"
+// data "SoundLoop" "Spell_Status_AuraOfTerror_Start"
+// data "SoundStop" "Spell_Status_AuraOfTerror_End"
+// data "StackId" "EL_MAG_FEAR_AURA"
+// data "StackPriority" "0"
+// data "StackType" "Ignore"
+// data "StackPriority" "10"
+// data "AuraRadius" "3"
+// data "AuraStatuses" "IF(not SavingThrow(Ability.Wisdom, 15) and (Enemy() and not IsImmuneToStatus('SG_FRIGHTENED'))):ApplyStatus(FRIGHTENED,100,1)"
+// data "RemoveConditions" "not Combat()"
+// data "RemoveEvents" "OnCombatEnded"
+// data "StatusPropertyFlags" "DisableCombatlog;IgnoreResting"
 
 

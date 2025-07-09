@@ -282,6 +282,7 @@ data "StatsFunctors" "ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SE
 // Dread Pack ------------------------------------------------------------
 
 new entry "EL_MAG_Dread_Cantrips_Passive"
+// Tag: Necromancer
 // You necromancy cantrips targeting foes can target an additional creature. The same target can be chosen twice.
 type "PassiveData"
 data "DisplayName" "h10e0ae89g2330g49bcgb500g736dda2592c5" // writes to localization
@@ -367,6 +368,7 @@ data "Description" ""
 data "Boosts" "Advantage(Skill, Concentration);Advantage(Skill, Religion);Advantage(Skill, Arcana);RollBonus(SkillCheck,2,Concentration);RollBonus(SkillCheck,2,Religion);RollBonus(SkillCheck,2,Arcana)"
 
 new entry "EL_MAG_Dread_Resistance_Passive"
+// Tag: Necromancer, Undead Race
 // You have resistance to Radiant Damage. And you are also immune to Necrotic and Psychic Damage.
 type "PassiveData"
 data "DisplayName" ""
@@ -405,6 +407,7 @@ data "Icon" "PassiveFeature_ImprovedCritical"
 data "Boosts" "IF(IsUnarmedAttack()):ReduceCriticalAttackThreshold(1)"
 
 new entry "EL_MAG_Legendary_Force_UnarmedAttack_Passive"
+// Tag: Monk
 // UnarmedAttack + Damage
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -413,6 +416,7 @@ data "Icon" "GenericIcon_DamageType_Force"
 data "Boosts" "CharacterUnarmedDamage(1d10, Force)"
 
 new entry "EL_MAG_Legendary_Piercing_UnarmedAttack_Passive"
+// Tag: Monk
 // UnarmedAttack + Damage
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -421,6 +425,7 @@ data "Icon" "PassiveFeature_Generic_Death"
 data "Boosts" "CharacterUnarmedDamage(1d10, Piercing)"
 
 new entry "EL_MAG_Legendary_Lightning_UnarmedAttack_Passive"
+// Tag: Monk
 // UnarmedAttack + Damage
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -438,6 +443,7 @@ data "Icon" "GenericIcon_DamageType_Fire"
 data "Boosts" "CharacterWeaponDamage(1d6, Fire);CharacterUnarmedDamage(1d6, Fire);IF(IsUnarmedAttack()):RollBonus(Attack,1)"
 
 new entry "EL_MAG_Legendary_Fire_UnarmedAttack_Passive"
+// Tag: Monk
 // UnarmedAttack + Damage
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -470,6 +476,7 @@ data "BoostConditions" "HasStatus('MAG_FIRE_HEAT', context.Source)"
 data "Boosts" "IF(IsMeleeWeaponAttack() or IsMeleeUnarmedAttack()):DamageBonus(1, Fire)"
 
 new entry "EL_MAG_UnarmedAttack_OffBalanced_Passive"
+// Tag: Monk
 // UnarmedAttack + Status
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -481,6 +488,7 @@ data "Conditions" "IsUnarmedAttack()"
 data "StatsFunctors" "ApplyStatus(OFF_BALANCED, 100, 2)"
 
 new entry "EL_MAG_UnarmedAttack_Bleeding_Passive"
+// Tag: Monk
 // UnarmedAttack + Status
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -492,6 +500,7 @@ data "Conditions" "IsUnarmedAttack()"
 data "StatsFunctors" "ApplyStatus(BLEEDING, 100, 2)"
 
 new entry "EL_MAG_UnarmedAttack_Shock_Passive"
+// Tag: Monk
 // UnarmedAttack + Status
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -503,6 +512,7 @@ data "Conditions" "IsUnarmedAttack()"
 data "StatsFunctors" "ApplyStatus(SHOCKED, 100, 2)"
 
 new entry "EL_MAG_UnarmedAttack_Stunned_Passive"
+// Tag: Monk
 // UnarmedAttack + Status
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -526,6 +536,7 @@ data "Conditions" "IsMeleeWeaponAttack() or IsMeleeUnarmedAttack()"
 data "StatsFunctors" "ApplyStatus(BURNING, 100, 2)"
 
 new entry "EL_MAG_UnarmedAttack_Hellfire_Passive"
+// Tag: Monk
 // UnarmedAttack + Status
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -546,6 +557,7 @@ data "Icon" ""
 data "Boosts" "IF(HasStatus('SHOCKED',context.Target)):Advantage(AttackRoll)"
 
 new entry "EL_MAG_Evil_Advantage_Passive"
+// Tag: Monk
 // UnarmedAttack gain Advantage against Undead, Aberration & Fiend Creature
 type "PassiveData"
 data "DisplayName" "XXX"
@@ -587,11 +599,46 @@ data "Description" "XXX"
 data "StatsFunctors" "ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,ClassLevel(Monk),Force,Magical)"
 
 new entry "EL_MAG_Lightening_Resistance_Passive"
+// Tag: Common
 // You have Resistance to Lightening Damage. And you are also immune to shocked and electrocuted conditions.
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Boosts" "Resistance(Lightning, Resistant);StatusImmunity(SHOCKED);StatusImmunity(SHOCKED_SURFACE);StatusImmunity(STATIC_DISCHARGE);StatusImmunity(STATIC_DISCHARGE_DAMAGE);StatusImmunity(STATIC_DISCHARGE_CONSTRUCT);StatusImmunity(MAG_CHARGED_LIGHTNING_AURA_ELECTRIFIED);StatusImmunity(MAG_ELECTROCUTED)"
+
+new entry "EL_MAG_Ki_Absorption_OnSavingThrow_Passive"
+// Tag: Monk
+// You restore 1 Ki Point When you succeed on a saving throw against spell.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "IsSpell() and IsLastConditionRollSuccess(ConditionRollType.ConditionSavingThrow) and not Self() and IsSavingThrow()"
+data "StatsFunctors" "RestoreResource(SELF,KiPoint,1,0)"
+
+new entry "EL_MAG_Ki_Absorption_OnKilling_Passive"
+// Tag: Monk
+// You restore 1 Ki Point When you drop down an enemy.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Properties" "IsHidden;OncePerAttack"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsKillingBlow()"
+data "StatsFunctors" "RestoreResource(SELF,KiPoint,1,0)"
+
+RestoreResource(SELF, Movement, 100%, 0)
+
+new entry "EL_MAG_Bleed_Immunities_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "StatusImmunity(BLEEDING);StatusImmunity(GAPING_WOUND);StatusImmunity(CHEST_TRAUMA);StatusImmunity(CRIPPLED);StatusImmunity(HAMSTRING);StatusImmunity(SG_Stunned)"
+
+
 
 
 
