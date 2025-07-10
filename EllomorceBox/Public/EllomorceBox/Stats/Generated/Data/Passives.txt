@@ -628,8 +628,6 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsKillingBlow()"
 data "StatsFunctors" "RestoreResource(SELF,KiPoint,1,0)"
 
-RestoreResource(SELF, Movement, 100%, 0)
-
 new entry "EL_MAG_Bleed_Immunities_Passive"
 // Tag: Common
 // 
@@ -638,7 +636,26 @@ data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Boosts" "StatusImmunity(BLEEDING);StatusImmunity(GAPING_WOUND);StatusImmunity(CHEST_TRAUMA);StatusImmunity(CRIPPLED);StatusImmunity(HAMSTRING);StatusImmunity(SG_Stunned)"
 
+new entry "EL_MAG_Fire_Immunity_Passive"
+// Tag: Common
+// You are immune to Fire Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "Resistance(Fire, Immune)"
 
+new entry "EL_MAG_FierceFire_Immunity_Passive"
+// Tag: Common
+// You are immune to Fire Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "StatusImmunity(BURNING_LAVA);StatusImmunity(BURNING_HELLFIRE);StatusImmunity(DIFFICULT_TERRAIN_LAVA);StatusImmunity(LOW_HOH_HELLSPHERE_DAMAGE)"
 
-
-
+new entry "EL_MAG_SwiftFoot_Passive"
+// Tag: Common
+// You 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "Initiative(1);ActionResource(Movement, 3, 0)"
