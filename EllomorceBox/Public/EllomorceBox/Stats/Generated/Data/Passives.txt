@@ -652,6 +652,14 @@ data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Boosts" "StatusImmunity(BURNING_LAVA);StatusImmunity(BURNING_HELLFIRE);StatusImmunity(DIFFICULT_TERRAIN_LAVA);StatusImmunity(LOW_HOH_HELLSPHERE_DAMAGE)"
 
+ew entry "EL_MAG_Mental_Immunities_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "Resistance(Psychic, Immune);StatusImmunity(SG_Mad);StatusImmunity(SG_Charmed);StatusImmunity(SG_Charmed_Subtle);StatusImmunity(SG_Dominated)"
+
 new entry "EL_MAG_SwiftFoot_Passive"
 // Tag: Common
 // You 
@@ -659,3 +667,24 @@ type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Boosts" "Initiative(1);ActionResource(Movement, 3, 0)"
+
+new entry "EL_MAG_StrengthBonus_Passive"
+// Tag: Common
+// On a hit, double the damage from your Strength Modifier. This weapon grants you Advantage on Attack Rolls against Large, Huge, or Gargantuan creatures.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(SizeEqualOrGreater(Size.Large) and HasStatus('MAG_GIANTSLAYER_ADVANTAGE_TECHNICAL', GetAttackWeapon())):Advantage(AttackRoll)"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" "DealDamage(StrengthModifier)"
+
+new entry "EL_MAG_Critical_Bonus_Radiant_Passive"
+// Tag: Common
+// When you roll a Critical Hit with this weapon, you deal additional Radiant Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnCreate"
+data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "Boosts" "IF(IsWeaponAttack() and IsCritical()):DamageBonus(10,Radiant,false)"

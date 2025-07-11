@@ -29,7 +29,7 @@ data "DefaultBoosts" "WeaponProperty(Magical);WeaponEnchantment(5)"
 data "PassivesOnEquip" "MAG_IgnoreSlashingResistance_Passive;MAG_PHB_Sentinel_Shield_Passive;MAG_Giantslayer_Passive;MAG_PlaneShifterSlayer_Passive"
 data "StatusOnEquip" "MAG_COMBAT_GIANTSLAYER_TECHNICAL"
 
-// Divide Line -------------------------------------
+// Dread Pack -------------------------------------
 
 new entry "EL_WPN_Dread_Flail"
 type "Weapon"  
@@ -56,4 +56,22 @@ data "DefaultBoosts" "WeaponProperty(Magical);WeaponEnchantment(3)"
 data "PassivesOnEquip" "MAG_Legendary_ArcaneEnchantment_Passive;EL_MAG_Necrotic_Additional_Damage_Passive;MAG_Heightened_Necromancy_Passive;MAG_LC_CazadorVampiric_Quarterstaff_Passive"
 data "StatusOnEquip" ""
 
-// Divide Line -------------------------------------
+// Monk Pack -------------------------------------
+
+new entry "EL_WPN_Wukong_Staff"
+type "Weapon"  
+using "WPN_Quarterstaff_2"
+data "RootTemplate" "XXX"
+data "Damage Range" ""
+data "ValueOverride" "800"
+data "Weight" "1.2"
+data "Rarity" "Legendary"
+data "Weapon Properties" "Melee;Dippable;Reach;Versatile;Magical"
+data "WeaponRange" "250"
+data "Boosts" "WeaponDamage(1d8,Radiant);UnlockSpell(Shout_MAG_Legendary_GiantSlayer_EnlargeSelf)"
+data "DefaultBoosts" "WeaponProperty(Magical);WeaponEnchantment(3)"
+data "BoostsOnEquipMainHand" "AC(1);UnlockSpell(Target_MAG_WeaponAction_GiantSubjugation);"
+data "PassivesOnEquip" "EL_MAG_StrengthBonus_Passive;MAG_Barbarian_Gloves_BoneSpike_Passive;MAG_TheClover_Rearrangement_Passive"
+data "StatusOnEquip" ""
+
+
