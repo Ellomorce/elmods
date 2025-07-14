@@ -207,3 +207,35 @@ data "TickFunctors" "IF(HasStatus('BURNING',context.Source) or HasStatus('WILD_M
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StatusGroups" "SG_Condition"
 
+// Outlaw Pack ------------------------------------------------------------
+
+
+new entry "EL_MAG_BLOOD_THIRSTY"
+// Tag: Common
+// 
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "StackId" "EL_MAG_BLOOD_THIRSTY"
+data "TickType" "StartTurn"
+data "TickFunctors" "IF(InSurface('SurfaceBlood') or InSurface('SurfaceBloodFrozen') and Combat()):ApplyStatus(ALCH_ELIXIR_BLOODLUST)"
+data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog;IgnoreResting"
+data "OnRemoveFunctors" "RemoveStatus(EL_MAG_BLOOD_THIRSTY_TECHNICAL)"
+
+new entry "EL_MAG_BLOOD_THIRSTY_TECHNICAL"
+// Tag: Common
+// 
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "StackId" "EL_MAG_BLOOD_THIRSTY_TECHNICAL"
+data "RemoveConditions" "not Combat()"
+data "RemoveEvents" "OnTurn;OnCombatEnded"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+
+
+
+Disadvantage(SavingThrow,Constitution)

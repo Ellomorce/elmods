@@ -553,7 +553,6 @@ new entry "EL_MAG_Shock_Advantage_Passive"
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
-data "Icon" ""
 data "Boosts" "IF(HasStatus('SHOCKED',context.Target)):Advantage(AttackRoll)"
 
 new entry "EL_MAG_Evil_Advantage_Passive"
@@ -562,7 +561,6 @@ new entry "EL_MAG_Evil_Advantage_Passive"
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
-data "Icon" ""
 data "Boosts" "IF(Tagged('UNDEAD', context.Target) or Tagged('ABERRATION', context.Target) or Tagged('FIEND', context.Target)):Advantage(AttackRoll)"
 
 new entry "EL_MAG_Ignore_Lightning_Resistance_Passive"
@@ -688,3 +686,54 @@ data "Description" "XXX"
 data "BoostContext" "OnCreate"
 data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
 data "Boosts" "IF(IsWeaponAttack() and IsCritical()):DamageBonus(10,Radiant,false)"
+
+// Outlaw Pack -------------------------------------
+
+new entry "EL_MAG_Greater_ThrowBonus_Passive"
+// Tag: Common
+// You 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "EntityThrowDamage(2d4)"
+
+new entry "EL_MAG_CriticalHit_Immunity_Passive"
+// Tag: Common
+// You 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "CriticalHit(AttackRoll,Success,Never)"
+
+new entry "EL_MAG_Wet_Bonus_Damage_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnAttack"
+data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "Boosts" "IF(HasStatus('WET',context.Target)):DamageBonus(2, Cold)"
+
+new entry "EL_MAG_Attack_Chill_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and HasDamageEffectFlag(DamageFlags.Hit) and not HasDamageEffectFlag(DamageFlags.Miss)"
+data "StatsFunctors" "ApplyStatus(CHILLED, 100, 2)"
+
+new entry "EL_MAG_WetBane_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(HasStatus('WET',context.Target)):Advantage(AttackRoll)"
+
+
+

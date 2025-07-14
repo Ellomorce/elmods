@@ -24,7 +24,7 @@ using "Interrupt_Smite_Divine"
 data "DisplayName" "XXX"
 data "ExtraDescription" "XXX"
 data "Icon" "Action_Paladin_DivineSmite"
-data "Properties" "IF(not UndeadOrFiend(context.Target)):DealDamage(2d8,Radiant);IF(UndeadOrFiend(context.Target)):DealDamage(3d8,Radiant);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0)"
+data "Properties" "IF(not UndeadOrFiend(context.Target)):DealDamage(3d8,Radiant);IF(UndeadOrFiend(context.Target)):DealDamage(4d8,Radiant);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);ApplyStatus(STAGGERING_SMITE,100,1, , , ,not SavingThrow(Ability.Wisdom, ManeuverSaveDC()+2));"
 data "Cost" "KiPoint:2"
 
 new entry "EL_Interrupt_Smite_Wukong_Critical"
