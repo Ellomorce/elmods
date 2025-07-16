@@ -715,6 +715,16 @@ data "BoostContext" "OnAttack"
 data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
 data "Boosts" "IF(HasStatus('WET',context.Target)):DamageBonus(2, Cold)"
 
+new entry "EL_MAG_Bleed_Bonus_Damage_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnAttack"
+data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "Boosts" "IF(HasStatus('BLEEDING',context.Target)):DamageBonus(2, Piercing)"
+
 new entry "EL_MAG_Attack_Chill_Passive"
 // Tag: Common
 // 
@@ -727,6 +737,21 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon() and HasDamageEffectFlag(DamageFlags.Hit) and not HasDamageEffectFlag(DamageFlags.Miss)"
 data "StatsFunctors" "ApplyStatus(CHILLED, 100, 2)"
 
+new entry "EL_MAG_Attack_Wet_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(WET, 100, 2);"
+
+
+
+
 new entry "EL_MAG_WetBane_Passive"
 // Tag: Common
 // 
@@ -735,5 +760,22 @@ data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Boosts" "IF(HasStatus('WET',context.Target)):Advantage(AttackRoll)"
 
+new entry "EL_MAG_BleedBane_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(HasStatus('BLEEDING',context.Target)):Advantage(AttackRoll)"
 
-
+new entry "EL_MAG_ChillCurse_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "IF(HasStatus('CHILLED', context.Target) and not (IsMiss() or IsCriticalMiss())):ApplyStatus(EL_MAG_CONSTITUTION_DISADVANTAGE_CURSE, 100, 2)"

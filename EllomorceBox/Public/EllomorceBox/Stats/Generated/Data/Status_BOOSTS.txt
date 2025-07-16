@@ -235,7 +235,18 @@ data "RemoveConditions" "not Combat()"
 data "RemoveEvents" "OnTurn;OnCombatEnded"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 
+new entry "EL_MAG_CONSTITUTION_DISADVANTAGE_CURSE"
+// Tag: Common
+// 
+type "StatusData"
+using "BANE"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "GenericIcon_Intent_Debuff"
+data "StackId" "EL_MAG_CONSTITUTION_DISADVANTAGE_CURSE"
+data "Boosts" "Disadvantage(SavingThrow,Constitution)"
+data "StatusGroups" "SG_Cursed"
+  
 
 
-
-Disadvantage(SavingThrow,Constitution)
