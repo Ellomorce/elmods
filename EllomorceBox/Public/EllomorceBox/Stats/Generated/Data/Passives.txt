@@ -685,7 +685,7 @@ data "DisplayName" "XXX"
 data "Description" "XXX"
 data "BoostContext" "OnCreate"
 data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
-data "Boosts" "IF(IsWeaponAttack() and IsCritical()):DamageBonus(10,Radiant,false)"
+data "Boosts" "IF(IsCritical()):DamageBonus(10,Radiant,false)"
 
 // Outlaw Pack -------------------------------------
 
@@ -711,8 +711,8 @@ new entry "EL_MAG_Wet_Bonus_Damage_Passive"
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
-data "BoostContext" "OnAttack"
-data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "BoostContext" "OnDamage"
+data "BoostConditions" ""
 data "Boosts" "IF(HasStatus('WET',context.Target)):DamageBonus(2, Cold)"
 
 new entry "EL_MAG_Bleed_Bonus_Damage_Passive"
@@ -721,9 +721,29 @@ new entry "EL_MAG_Bleed_Bonus_Damage_Passive"
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
-data "BoostContext" "OnAttack"
-data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "BoostContext" "OnDamage"
+data "BoostConditions" ""
 data "Boosts" "IF(HasStatus('BLEEDING',context.Target)):DamageBonus(2, Piercing)"
+
+new entry "EL_MAG_Reverberation_Bonus_Damage_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" ""
+data "Boosts" "IF(HasStatus('MAG_THUNDER_REVERBERATION',context.Target)):DamageBonus(2, Thunder)"
+
+new entry "EL_MAG_Electrocuted_Bonus_Damage_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" ""
+data "Boosts" "IF(HasStatus('WET',context.Target)):DamageBonus(2, Lightning)"
 
 new entry "EL_MAG_Attack_Chill_Passive"
 // Tag: Common
@@ -744,13 +764,53 @@ type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Icon" "XXXX"
-data "Properties" "OncePerTurn;Highlighted"
-data "StatsFunctorContext" "OnAttack"
+data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
-data "StatsFunctors" "ApplyStatus(WET, 100, 2);"
+data "StatsFunctors" "ApplyStatus(WET, 100, 2);GROUND:CreateSurface(2, 0, Water)"
 
+new entry "EL_MAG_Attack_FleshRot_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(CONTAGION_FLESH_ROT, 100, 2)"
 
+new entry "EL_MAG_Attack_Reverberation_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(MAG_THUNDER_REVERBERATION, 100, 2);ApplyStatus(MAG_THUNDER_REVERBERATION_DURATION_TECHNICAL, 100, 1)"
 
+new entry "EL_MAG_Attack_Shocked_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(SHOCKED, 100, 3)"
+
+new entry "EL_MAG_Attack_Bleed_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(BLEEDING, 100, 3)"
 
 new entry "EL_MAG_WetBane_Passive"
 // Tag: Common
@@ -768,6 +828,30 @@ data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Boosts" "IF(HasStatus('BLEEDING',context.Target)):Advantage(AttackRoll)"
 
+new entry "EL_MAG_DiseaseBane_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(HasStatus('SG_Disease',context.Target)):Advantage(AttackRoll)"
+
+new entry "EL_MAG_ReverberationBane_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(HasStatus('MAG_THUNDER_REVERBERATION',context.Target)):Advantage(AttackRoll)"
+
+new entry "EL_MAG_ShockBane_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(HasStatus('SHOCKED,context.Target)):Advantage(AttackRoll)"
+
 new entry "EL_MAG_ChillCurse_Passive"
 // Tag: Common
 // 
@@ -779,3 +863,32 @@ data "Properties" "OncePerTurn;Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
 data "StatsFunctors" "IF(HasStatus('CHILLED', context.Target) and not (IsMiss() or IsCriticalMiss())):ApplyStatus(EL_MAG_CONSTITUTION_DISADVANTAGE_CURSE, 100, 2)"
+
+new entry "EL_MAG_DrainTheLiving_Passive"
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Properties" "OncePerTurn"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "Enemy() and IsKillingBlow() and not Item() or IsCritical()"
+data "StatsFunctors" "RegainHitPoints(SELF,Level/2);"
+
+new entry "EL_MAG_Critical_Bonus_Thunder_Passive"
+// Tag: Common
+// When you roll a Critical Hit with this weapon, you deal additional Thunder Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "Boosts" "IF(IsCritical()):DealDamage(1d8,Thunder,Magical)"
+
+new entry "EL_MAG_Critical_Bonus_Lightning_Passive"
+// Tag: Common
+// When you roll a Critical Hit with this weapon, you deal additional Thunder Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "Boosts" "IF(IsCritical()):DealDamage(1d8,Lightning,Magical)"
