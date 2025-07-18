@@ -209,7 +209,6 @@ data "StatusGroups" "SG_Condition"
 
 // Outlaw Pack ------------------------------------------------------------
 
-
 new entry "EL_MAG_BLOOD_THIRSTY"
 // Tag: Common
 // 

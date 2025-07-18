@@ -745,6 +745,16 @@ data "BoostContext" "OnDamage"
 data "BoostConditions" ""
 data "Boosts" "IF(HasStatus('WET',context.Target)):DamageBonus(2, Lightning)"
 
+new entry "EL_MAG_Burning_Bonus_Damage_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" ""
+data "Boosts" "IF(HasStatus('BURNING',context.Target)):DamageBonus(2, Fire)"
+
 new entry "EL_MAG_Attack_Chill_Passive"
 // Tag: Common
 // 
@@ -850,7 +860,15 @@ new entry "EL_MAG_ShockBane_Passive"
 type "PassiveData"
 data "DisplayName" "XXX"
 data "Description" "XXX"
-data "Boosts" "IF(HasStatus('SHOCKED,context.Target)):Advantage(AttackRoll)"
+data "Boosts" "IF(HasStatus('SHOCKED',context.Target)):Advantage(AttackRoll)"
+
+new entry "EL_MAG_BurningBane_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(HasStatus('BURNING',context.Target)):Advantage(AttackRoll)"
 
 new entry "EL_MAG_ChillCurse_Passive"
 // Tag: Common
@@ -892,3 +910,33 @@ data "Description" "XXX"
 data "BoostContext" "OnDamage"
 data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
 data "Boosts" "IF(IsCritical()):DealDamage(1d8,Lightning,Magical)"
+
+new entry "EL_MAG_Critical_Bonus_Piercing_Passive"
+// Tag: Common
+// When you roll a Critical Hit with this weapon, you deal additional Piercing Damage.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" "AttackedWithPassiveSourceWeapon()"
+data "Boosts" "IF(IsCritical()):DealDamage(1d8,Piercing,Magical)"
+
+new entry "EL_MAG_Greater_Piercing_Vulnerability_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(MAG_BHAALIST_AURA_OF_MURDER, 100, 2)"
+
+new entry "EL_MAG_Heightened_Evocation_Fire_Passive"
+// Tag: Common
+// When you Evocation Spell deals fire damage, you deal extra damage equals to your spell casting ability modifiers.
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "PassiveFeature_EmpoweredEvocation"
+data "Properties" "Highlighted"
+data "Boosts" "IF(IsSpell() and IsSpellSchool(SpellSchool.Evocation) and SpellDamageTypeIs(DamageType.Fire)):DamageBonus(max(1, SpellcastingAbilityModifier))"

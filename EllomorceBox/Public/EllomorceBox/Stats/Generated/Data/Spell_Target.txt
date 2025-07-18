@@ -197,3 +197,15 @@ data "DisplayName" "XXX"
 data "RootSpellID" "EL_Target_Smite_Wukong_Unlock"
 data "InterruptPrototype" "EL_Interrupt_Smite_Wukong_Critical"
 
+new entry "EL_Target_FlameStrike"
+// Spell Name: 
+// 
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FlameStrike"
+data "Cooldown" "OncePerRest"
+data "TargetRadius" "1.5"
+data "TargetConditions" ""
+data "SpellRoll" "not SavingThrow(Ability.Dexterity,17)"
+data "SpellSuccess" "DealDamage(8d8,Fire,Magical)"
+data "SpellFail" "DealDamage(8d8/2,Fire,Magical)"
