@@ -247,5 +247,28 @@ data "StackId" "EL_MAG_CONSTITUTION_DISADVANTAGE_CURSE"
 data "Boosts" "Disadvantage(SavingThrow,Constitution)"
 data "StatusGroups" "SG_Cursed"
   
+new entry "EL_MAG_WISDOM_DISADVANTAGE_CURSE"
+// Tag: Common
+// 
+type "StatusData"
+using "BANE"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "GenericIcon_Intent_Debuff"
+data "StackId" "EL_MAG_WISDOM_DISADVANTAGE_CURSE"
+data "Boosts" "Disadvantage(SavingThrow,Wisdom)"
+data "StatusGroups" "SG_Cursed"
 
+new entry "EL_MAG_PSYCHIC_VULNERABLITY"
+// Tag: Common
+// 
+type "StatusData"
+using "BANE"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "GenericIcon_DamageType_Psychic"
+data "StackId" "EL_MAG_PSYCHIC_VULNERABLITY"
+data "Boosts" "Resistance(Psychic, Vulnerable)"
 

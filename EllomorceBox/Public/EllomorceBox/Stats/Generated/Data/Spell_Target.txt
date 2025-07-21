@@ -59,7 +59,7 @@ data "PrepareEffect" "de6dddd8-8a32-4db1-a521-70706648a83b"
 data "CastEffect" "2e44371c-a637-4cab-a120-3088b3d83369"
 data "TargetEffect" "7537e8f0-1897-4a66-83fe-7f58e9dbd12e"
 
-----
+// Dread Pack -------------------------------------
 
 new entry "EL_Target_MAG_Harm"
 // 
@@ -70,6 +70,8 @@ data "Cooldown" "OncePerCombat"
 data "UseCosts" "ActionPoint:1"
 data "SpellAnimation" "9313094a-bae2-454f-9701-f920d0e8e98d,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;808fdfab-2e6c-472e-b3c4-19ce4a719d9d,,;,,;ea745d30-eb87-447f-b190-c81298e27d9c,,;,,;,,"
 data "MemoryCost" ""
+
+// Monk Pack -------------------------------------
 
 new entry "EL_Target_MAG_MonkTechnique_Piercing_Vulnerability"
 // Spell Name: Equals to Stunning Strike but inflicts piercing vulnerability
@@ -197,6 +199,8 @@ data "DisplayName" "XXX"
 data "RootSpellID" "EL_Target_Smite_Wukong_Unlock"
 data "InterruptPrototype" "EL_Interrupt_Smite_Wukong_Critical"
 
+// Outlaw Pack -------------------------------------
+
 new entry "EL_Target_FlameStrike"
 // Spell Name: 
 // 
@@ -204,8 +208,29 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_FlameStrike"
 data "Cooldown" "OncePerRest"
-data "TargetRadius" "1.5"
-data "TargetConditions" ""
 data "SpellRoll" "not SavingThrow(Ability.Dexterity,17)"
 data "SpellSuccess" "DealDamage(8d8,Fire,Magical)"
 data "SpellFail" "DealDamage(8d8/2,Fire,Magical)"
+data "Icon" "Spell_Evocation_FlameStrike"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "TooltipDamageList" "DealDamage(8d8,Fire,Magical)"
+data "TooltipUpcastDescriptionParams" "DealDamage(8d8,Fire,Magical)"
+data "UseCosts" "ActionPoint:1"
+data "MemoryCost" ""
+data "DamageType" "Fire"
+
+new entry "EL_Target_Hastur_Attack"
+// Spell Name: 
+// 
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MAG_WeaponAction_Mindoverload"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(4d6, Psychic);IF(not SavingThrow(Ability.Wisdom, ManeuverSaveDC()+5)):ApplyStatus(FRIGHTENED,100, 2);ExecuteWeaponFunctors(MainHand)
+data "TargetConditions" "(Character() or Item()) and not Self() and not Dead() and Tagged('HUMANOID') and not Tagged('UNDEAD')"
+data "UseCosts" "ActionPoint:1"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(4d6, Psychic);"
+data "TooltipAttackSave" "MeleeWeaponAttack; Wisdom"
+data "TooltipStatusApply" "ApplyStatus(FRIGHTENED,100,2)"

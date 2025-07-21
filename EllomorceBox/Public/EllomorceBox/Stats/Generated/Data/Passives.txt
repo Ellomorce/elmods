@@ -755,6 +755,26 @@ data "BoostContext" "OnDamage"
 data "BoostConditions" ""
 data "Boosts" "IF(HasStatus('BURNING',context.Target)):DamageBonus(2, Fire)"
 
+new entry "EL_MAG_MentalFatigue_Bonus_Damage_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" ""
+data "Boosts" "IF(HasStatus('MAG_PSYCHIC_MENTAL_FATIGUE',context.Target)):DamageBonus(2, Psychic)"
+
+new entry "EL_MAG_DualWield_Bonus_Damage_Passive"
+// Tag: Common
+// Debug: 感覺好像有問題
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "BoostContext" "OnDamage"
+data "BoostConditions" ""
+data "Boosts" "IF(FightingStyle_TwoWeaponFighting(context.Source)):DamageBonus(2, Slashing)"
+
 new entry "EL_MAG_Attack_Chill_Passive"
 // Tag: Common
 // 
@@ -822,6 +842,17 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
 data "StatsFunctors" "ApplyStatus(BLEEDING, 100, 3)"
 
+new entry "EL_MAG_Attack_MentalFatigue_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(MAG_PSYCHIC_MENTAL_FATIGUE, 100, 2)"
+
 new entry "EL_MAG_WetBane_Passive"
 // Tag: Common
 // 
@@ -870,6 +901,14 @@ data "DisplayName" "XXX"
 data "Description" "XXX"
 data "Boosts" "IF(HasStatus('BURNING',context.Target)):Advantage(AttackRoll)"
 
+new entry "EL_MAG_MentalFatigueBane_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Boosts" "IF(HasStatus('MAG_PSYCHIC_MENTAL_FATIGUE',context.Target)):Advantage(AttackRoll)"
+
 new entry "EL_MAG_ChillCurse_Passive"
 // Tag: Common
 // 
@@ -881,6 +920,18 @@ data "Properties" "OncePerTurn;Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
 data "StatsFunctors" "IF(HasStatus('CHILLED', context.Target) and not (IsMiss() or IsCriticalMiss())):ApplyStatus(EL_MAG_CONSTITUTION_DISADVANTAGE_CURSE, 100, 2)"
+
+new entry "EL_MAG_MentalFatigueCurse_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "XXXX"
+data "Properties" "OncePerTurn;Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "IF(HasStatus('MAG_PSYCHIC_MENTAL_FATIGUE', context.Target) and not (IsMiss() or IsCriticalMiss())):ApplyStatus(EL_MAG_WISDOM_DISADVANTAGE_CURSE, 100, 2)"
 
 new entry "EL_MAG_DrainTheLiving_Passive"
 type "PassiveData"
@@ -930,6 +981,16 @@ data "Description" "XXX"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
 data "StatsFunctors" "ApplyStatus(MAG_BHAALIST_AURA_OF_MURDER, 100, 2)"
+
+new entry "EL_MAG_Psychic_Vulnerability_Passive"
+// Tag: Common
+// 
+type "PassiveData"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(EL_MAG_PSYCHIC_VULNERABLITY, 100, 3)"
 
 new entry "EL_MAG_Heightened_Evocation_Fire_Passive"
 // Tag: Common
