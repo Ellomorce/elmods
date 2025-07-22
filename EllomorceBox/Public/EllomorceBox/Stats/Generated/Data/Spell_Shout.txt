@@ -95,4 +95,13 @@ data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "33302a46-4a12-41dd-8845-6b7314d50022"
 data "CastEffect" "1a4b0423-005b-4577-b376-815a08809675"
 
-
+new entry "EL_Shout_MAG_SEBUGU"
+// Spell Name: 
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_GOB_PainPriest_DaggerSpell"
+data "SpellProperties" "GROUND:CreateSurface(2,2,Blood);DealDamage(1d10,Piercing);ApplyStatus(SELF,EL_MAG_SEBUGU_BOOST,100,10)"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "DescriptionParams" "DealDamage(1d10,Piercing);1d10"
+data "TooltipStatusApply" "EL_MAG_SEBUGU_BOOST"

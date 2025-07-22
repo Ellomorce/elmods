@@ -272,3 +272,39 @@ data "Icon" "GenericIcon_DamageType_Psychic"
 data "StackId" "EL_MAG_PSYCHIC_VULNERABLITY"
 data "Boosts" "Resistance(Psychic, Vulnerable)"
 
+new entry "EL_MAG_SEBUGU_BOOST"
+// Tag: Common
+// 
+type "StatusData"
+using "BLESS"
+data "StatusType" "BOOST"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "StackId" "EL_MAG_SEBUGU_BOOST"
+data "Boosts" "Advantage(AttackRoll);WeaponDamage(1d6,Slashing,Magical);ApplyStatus(SELF,BLEEDING,100,2)"
+
+
+
+Blood Sacrifice (GOB_PAIN_PRIEST_DAGGER_BLESS)
+    origin: Gustav_pak\Public\Gustav\Stats\Generated\Data\Status_BOOST.txt
+    type: StatusData
+    StatusType: BOOST
+    using: BLESS
+    DisplayName: Blood Sacrifice
+    Icon: Item_WPN_HUM_Dagger_A_1
+    X____ROOT ITEM BLESS STATS____X
+        Bless (BLESS)
+            origin: Shared_pak\Public\Shared\Stats\Generated\Data\Status_BOOST.txt
+            type: StatusData
+            StatusType: BOOST
+            DisplayName: Bless
+            Description: Gains a +1d4 bonus to <LSTag Tooltip="AttackRoll">Attack Rolls</LSTag> and <LSTag Tooltip="SavingThrow">Saving Throws</LSTag>.
+            Icon: Spell_Enchantment_Bless
+            SoundLoop: Spell_Status_Buff_MO
+            StackId: BLESS
+            Boosts: RollBonus(Attack,1d4);RollBonus(SavingThrow,1d4);RollBonus(DeathSavingThrow,1d4)
+            StatusGroups: SG_RemoveOnRespec
+            StatusEffect: 61fe31f9-ae4b-4926-a033-e56ea67c7d92
+            ManagedStatusEffectType: Positive
+            ManagedStatusEffectGroup: 6435c10a-c67d-4f79-8813-b84b0762f92b

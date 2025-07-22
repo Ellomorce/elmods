@@ -234,3 +234,17 @@ data "Description" "XXX"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(4d6, Psychic);"
 data "TooltipAttackSave" "MeleeWeaponAttack; Wisdom"
 data "TooltipStatusApply" "ApplyStatus(FRIGHTENED,100,2)"
+
+new entry "EL_Target_DoubleCross_Slashing_Attack"
+// Spell Name: 
+// 
+type "SpellData"
+data "SpellType" "Target"
+using "Target_LOW_DeathbringerAssault_Sarevok"
+data "Cooldown" "OncePerCombat"
+data "RequirementConditions" ""
+data "SpellSuccess" "GROUND:DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);Cast2[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];Cast3[GROUND:DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand)];Cast4[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)]"
+data "DisplayName" "XXX"
+data "Description" "XXX"
+data "DescriptionParams" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType)"
+data "TooltipDamageList" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType)"
