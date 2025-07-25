@@ -490,3 +490,5 @@ data "Rarity" "Legendary"
 data "Boosts" "UnlockSpell(Shout_MAG_SeeInvisibility)"
 data "PassivesOnEquip" "ImprovedCritical;LOW_HouseOfGrief_Cultists_Sight"
 data "StatusOnEquip" ""
+
+test
